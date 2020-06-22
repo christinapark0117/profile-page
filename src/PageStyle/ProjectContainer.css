@@ -5,31 +5,39 @@
 }
 
 #projectcard{
-    display: flex;
     padding: 3vw;
+    display: flex;
 }
 
 .card{
     width: 25vw;
     height: 70vh;
+    margin: 3vw
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat&display=swap');
 
 .card-title{
     text-align: center;
+    font-family: Caveat !important;
+    color: rgba(16,16,16,0.73) !important;
+    font-weight: 800;
+    font-size: 2vw
 }
 
 .card-img{
-    padding: .5vw;
+    padding: .3vw;
 }
 
-.breadisgold{
+.breadisgoldimg{
     height: 27vh;
 }
 
-.burgerdiner{
+.burgerdinerimg{
     height: 27vh;
 }
 
-.allens{
+.allensimg{
     height: 27vh;
 }
+
