@@ -5,6 +5,7 @@
 }
 
 #projectcard{
+    display: flex;
     padding: 3vw;
 }
 
@@ -15,4 +16,8 @@
 
 .card-img{
     padding: .5vw;
+}
+
+.burgerdiner{
+    height: 32.5vh;
 }
