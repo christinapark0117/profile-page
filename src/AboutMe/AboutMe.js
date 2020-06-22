@@ -42,7 +42,8 @@ const AboutMe = () => {
                             <i className="bioSkill"/> HTML5, CSS, Semantic UI, Bootstrap <br/>
                             <i className="bioSkill"/> SQL, SQLite3, PostgreSQL<br/>
                             <i className="bioSkill"/> RESTful architecture, MVC pattern<br/>
-                            <i className="bioSkill"/> Git
+                            <i className="bioSkill"/> Git, APIs
+                        </div>
                     </div>
                 </div>
             </div>
