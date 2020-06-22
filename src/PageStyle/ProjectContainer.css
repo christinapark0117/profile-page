@@ -14,10 +14,22 @@
     height: 70vh;
 }
 
+.card-title{
+    text-align: center;
+}
+
 .card-img{
     padding: .5vw;
 }
 
+.breadisgold{
+    height: 27vh;
+}
+
 .burgerdiner{
-    height: 32.5vh;
+    height: 27vh;
+}
+
+.allens{
+    height: 27vh;
 }
