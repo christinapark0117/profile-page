@@ -16,7 +16,9 @@ const ProjectCard = () => {
                     <p className="card-text">
                         Bread Is Gold is an app based on a recipe book written by an award winning Chef Massimo Bottura and his 60 other chef friends.
                     </p>
-                    <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    <div className='text-center'>
+                        <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    </div>
                 </div>
             </div>
 
@@ -28,7 +30,9 @@ const ProjectCard = () => {
                     <p className="card-text">
                         Burger Diner is a game where you have to make a burger with the given recipe by clicking on the right picture.
                     </p>
-                    <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    <div className='text-center'>
+                        <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    </div>
                 </div>
             </div>
 
@@ -40,7 +44,9 @@ const ProjectCard = () => {
                     <p className="card-text">
                         Allen's Cabinets Kitchen & Bath is a local cabinetry business in the dmv area. I've been working on building their website with them as a freelance job.
                     </p>
-                    <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    <div className='text-center'>
+                        <button type="button" className="btn btn-outline-secondary">Project Details</button>
+                    </div>
                 </div>
             </div>
 
