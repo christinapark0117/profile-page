@@ -5,6 +5,9 @@ import Navbar from './Navbar'
 import HomeContainer from "./Home/HomeContainer";
 import AboutMe from "./AboutMe/AboutMe";
 import ProjectContainer from "./Project/ProjectContainer";
+import BreadIsGold from "./Project/BreadIsGold";
+import BurgerDiner from "./Project/BurgerDiner";
+import AllensCabinets from "./Project/AllensCabinets";
 
 
 function App() {
@@ -17,9 +20,9 @@ function App() {
         <Route exact path='/aboutme' component={AboutMe} />
         <Route exact path='/project' component={ProjectContainer} />
 
-        {/*<Route exact path='/project/breadisgold' component={BreadIsGold} />*/}
-        {/*<Route exact path='/project/burgerdiner' component={BurgerDiner} />*/}
-        {/*<Route exact path='/project/allenscabinet' component={AllensCabinet} />*/}
+        <Route exact path='/project/breadisgold' component={BreadIsGold} />
+        <Route exact path='/project/burgerdiner' component={BurgerDiner} />
+        <Route exact path='/project/allenscabinet' component={AllensCabinets} />
       </Switch>
     </div>
   );
