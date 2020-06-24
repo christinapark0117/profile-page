@@ -1,21 +1,22 @@
 
 import React from 'react'
 import '../PageStyle/AboutMe.css'
+import BioImage from "../Media/about me pic.jpeg"
 
 
 
 const AboutMe = () => {
     return (
         <div id="aboutme">
+
+            <div className="bioImage">
+                <img className="myImage" alt="Christina's Picture" src={BioImage}/>
+            </div>
+
             <div className="bio">
                 <div className="bioName">
                     <span className="myName">Christina M. Park</span> : Full Stack Web Developer
                 </div>
-
-                <div className="bioImage">
-                    <img className="myImage" alt="Christina's Picture" src="../Media/about%20me%20pic.jpeg"/>
-                </div>
-
 
                 <div className="bioDetails">
                     <div className="bioDetail">
