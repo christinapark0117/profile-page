@@ -12,6 +12,10 @@ const AboutMe = () => {
                     <span className="myName">Christina M. Park</span> : Full Stack Web Developer
                 </div>
 
+                <div className="bioImage">
+                    <img className="myImage" alt="Christina's Picture" src="../Media/about%20me%20pic.jpeg"/>
+                </div>
+
 
                 <div className="bioDetails">
                     <div className="bioDetail">
