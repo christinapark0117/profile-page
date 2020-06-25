@@ -1,0 +1,17 @@
+#projectDetailPage{
+    background-color: #F8F8F8;
+    width: 100vw;
+    height: 90vh;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat&display=swap');
+
+.pageHeader{
+    font-family: "Caveat";
+    font-weight: 700;
+    font-size: 5vh;
+    text-align: center;
+    color: rgba(16,16,16,0.73) !important;
+    padding: 1vh;
+}
+
