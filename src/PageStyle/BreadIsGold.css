@@ -14,3 +14,11 @@
     color: rgba(16,16,16,0.73) !important;
     padding: 1vh;
 }
+
+.carousel{
+    height: 30vh;
+    width: 50vw;
+    margin: auto;
+}
+
+

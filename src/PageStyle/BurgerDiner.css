@@ -15,3 +15,17 @@
     padding: 1vh;
 }
 
+.carousel{
+    height: 30vh;
+    width: 50vw;
+    margin: auto
+}
+
+.carousel-control-prev-icon{
+    margin: auto;
+}
+
+.carousel-control-next-icon{
+    margin: auto;
+}
+
