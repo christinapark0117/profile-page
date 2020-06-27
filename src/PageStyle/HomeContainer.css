@@ -11,4 +11,27 @@
     padding: 37vh 0 0 3vw;
     font-weight: 200;
     font-size: 2vw;
+
+    /*overflow: hidden;*/
+    /*border-right: .2vw solid black;*/
+    /*margin: 0 auto;*/
+    /*letter-spacing: .2vw;*/
+    /*animation:*/
+    /*        typing 3.5s steps(40, end),*/
+    /*        blink-caret .75s step-end infinite;*/
 }
+
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    20% { border-color: black; }
+}
+
+/*.mainTitle{*/
+
+/*}*/
