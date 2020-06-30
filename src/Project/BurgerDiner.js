@@ -1,7 +1,11 @@
 import React from "react";
 import '../PageStyle/BurgerDiner.css'
 import {Carousel, ListGroup} from "react-bootstrap";
-import BDDirections from "../Media/Card Img for Burger Diner.png"
+import BDLogin from "../Media/Burger Diner Login.png"
+import BDDirections from "../Media/Burger Diner Direction.png"
+import BDLevel from "../Media/Burger Diner Level.png"
+import BDNextLevel from "../Media/Burger Diner Next Level.png"
+import BDPlayAgain from "../Media/Burger Diner Play Again.png"
 
 
 const BurgerDiner = () => {
@@ -17,7 +21,23 @@ const BurgerDiner = () => {
 
 
                 <Carousel.Item>
+                    <img src={BDLogin} className="d-block w-100" alt="Bread Is Gold home page"/>
+                </Carousel.Item>
+
+                <Carousel.Item>
                     <img src={BDDirections} className="d-block w-100" alt="Bread Is Gold home page"/>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img src={BDLevel} className="d-block w-100" alt="Bread Is Gold home page"/>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img src={BDNextLevel} className="d-block w-100" alt="Bread Is Gold home page"/>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img src={BDPlayAgain} className="d-block w-100" alt="Bread Is Gold home page"/>
                 </Carousel.Item>
 
 
