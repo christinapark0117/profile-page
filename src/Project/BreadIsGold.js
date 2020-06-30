@@ -6,53 +6,48 @@ import BIGMyRecipes from '../Media/Bread Is Gold My Recipes.jpg'
 import BIGRecipeDetail from '../Media/Bread Is Gold Recipe Detail Page.jpg'
 import BIGRecipesList from '../Media/Bread Is Gold Recipes List.jpg'
 import BIGChefList from '../Media/Bread Is Gold Chefs Page.png'
+import Carousel from 'react-bootstrap/Carousel';
+
 
 const BreadIsGold = () => {
-    return (
-        <div id="eachProjectPage">
+
+    return(
+        <div class="eachProjectPage">
+
 
             <h3 className='pageTitle'>Bread Is Gold</h3>
 
 
-            <div id="carouselControls" className="carousel slide" data-ride="carousel">
+            <Carousel indicators={false}>
 
-                <div className="carousel-inner">
 
-                    <div className="carousel-item active">
-                        <img src={BIGHome} className="d-block w-100" alt="Bread Is Gold home page"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGHome} className="d-block w-100" alt="Bread Is Gold home page"/>
+                </Carousel.Item>
 
-                    <div className="carousel-item">
-                        <img src={BIGWelcome} className="d-block w-100" alt="Bread Is Gold welcome page"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGWelcome} className="d-block w-100" alt="Bread Is Gold welcome"/>
+                </Carousel.Item>
 
-                    <div className="carousel-item">
-                        <img src={BIGMyRecipes} className="d-block w-100" alt="My Recipes List"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGMyRecipes} className="d-block w-100" alt="Bread Is Gold welcome"/>
+                </Carousel.Item>
 
-                    <div className="carousel-item">
-                        <img src={BIGRecipesList} className="d-block w-100" alt="All Recipes List"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGRecipeDetail} className="d-block w-100" alt="Bread Is Gold welcome"/>
+                </Carousel.Item>
 
-                    <div className="carousel-item">
-                        <img src={BIGRecipeDetail} className="d-block w-100" alt="Recipe Details"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGRecipesList} className="d-block w-100" alt="Bread Is Gold welcome"/>
+                </Carousel.Item>
 
-                    <div className="carousel-item">
-                        <img src={BIGChefList} className="d-block w-100" alt="Chef List"/>
-                    </div>
+                <Carousel.Item>
+                    <img src={BIGChefList} className="d-block w-100" alt="Bread Is Gold welcome"/>
+                </Carousel.Item>
 
-                </div>
 
-                <a className="carousel-control-prev" href="#carouselControls" role="button" data-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Previous</span>
-                </a>
-                <a className="carousel-control-next" href="#carouselControls" role="button" data-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="sr-only">Next</span>
-                </a>
-            </div>
+            </Carousel>
+
 
         </div>
     )

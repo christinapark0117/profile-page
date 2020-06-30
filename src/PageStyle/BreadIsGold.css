@@ -21,4 +21,9 @@
     margin: auto;
 }
 
+.carousel-control-next-icon,
+.carousel-control-prev-icon{
+    margin-top: 15vw !important;
+}
+
 
