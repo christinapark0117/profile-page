@@ -33,7 +33,8 @@ const BurgerDiner = () => {
 
                     <ListGroup variant="flush" id='front'>
                         <ListGroup.Item>JavaScript (DOM Manipulation)</ListGroup.Item>
-                        <ListGroup.Item>Semantic UI + Custom CSS + keyframes</ListGroup.Item>
+                        <ListGroup.Item>Semantic UI + Custom CSS</ListGroup.Item>
+                        <ListGroup.Item>Imported data by fetching to the backend</ListGroup.Item>
                     </ListGroup>
 
                 </div>
@@ -46,7 +47,7 @@ const BurgerDiner = () => {
                     <ListGroup variant="flush" id='back'>
                         <ListGroup.Item>Ruby on Rails</ListGroup.Item>
                         <ListGroup.Item>SQLite3</ListGroup.Item>
-                        <ListGroup.Item>RESTful API</ListGroup.Item>
+                        <ListGroup.Item>Serialized RESTful API</ListGroup.Item>
                         <ListGroup.Item>MVC Pattern</ListGroup.Item>
                     </ListGroup>
 
