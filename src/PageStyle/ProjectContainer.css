@@ -29,6 +29,12 @@
     padding: .3vw;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.card-text{
+    font-family: 'Open Sans';
+}
+
 .breadisgoldimg{
     height: 27vh;
 }
