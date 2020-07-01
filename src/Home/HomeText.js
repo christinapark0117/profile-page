@@ -1,6 +1,8 @@
 import React from "react";
-import HomeBackground from "../Media/leone-venter-VieM9BdZKFo-unsplash.jpg";
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
+import info from '../Media/info.png'
+import linkedin from '../Media/linkedinlogo.png'
+import github from '../Media/githublogo.png'
 
 const HomeText = () => {
     return (
@@ -11,17 +13,21 @@ const HomeText = () => {
                 <p>A Software Engineer at Your Service Reinventing Your Web Experience </p>
             </div>
 
-            {/*<div className="mainIcons animated fadeIn delay-1s">*/}
-            {/*    <Link to="/aboutme">*/}
-            {/*        <i className="fas fa-info-circle mainIcon" />*/}
-            {/*    </Link>*/}
-            {/*    <a target="_blank" rel="noopener noreferrer" href="https://github.com/christinapark0117">*/}
-            {/*        <i className="fab fa-github mainIcon" />*/}
-            {/*    </a>*/}
-            {/*    <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/christina-park-75b879135/">*/}
-            {/*        <i className="fab fa-linkedin mainIcon" />*/}
-            {/*    </a>*/}
-            {/*</div>*/}
+            <div className="mainIcons">
+                <Link to="/aboutme">
+                    <img alt='info icon' className='icon' src={info}/>
+                </Link>
+
+                <a target='blank' href='https://www.linkedin.com/in/christina-park-75b879135/'>
+                    <img alt='linkedin' className='icon' src={linkedin}/>
+                </a>
+
+                <a target='blank' href="https://github.com/christinapark0117?tab=overview&from=2020-06-01&to=2020-06-29">
+                    <img alt='github' className='icon' src={github}/>
+                </a>
+
+
+            </div>
 
         </div>
     )
