@@ -1,12 +1,13 @@
 import React from "react";
 import '../PageStyle/BreadIsGold.css';
+import {Link} from "react-router-dom";
 import BIGHome from '../Media/Bread is Gold Home.jpg';
 import BIGWelcome from '../Media/Bread Is Gold Welcome Page.jpg'
 import BIGMyRecipes from '../Media/Bread Is Gold My Recipes.jpg'
 import BIGRecipeDetail from '../Media/Bread Is Gold Recipe Detail Page.jpg'
 import BIGRecipesList from '../Media/Bread Is Gold Recipes List.jpg'
 import BIGChefList from '../Media/Bread Is Gold Chefs Page.png'
-import {Carousel, ListGroup} from 'react-bootstrap';
+import {Carousel, ListGroup, Button} from 'react-bootstrap';
 
 
 const BreadIsGold = () => {
@@ -78,6 +79,19 @@ const BreadIsGold = () => {
                         </ListGroup>
 
                     </div>
+
+            </div>
+
+            <div className='controlButtons'>
+
+
+                <Link to='/project'>
+                    <Button variant="outline-secondary">Back to Projects</Button>
+                </Link>
+
+
+                <Button variant="outline-secondary" href='https://drive.google.com/file/d/1i96tgp3y8Bf_puD6x_jy0n-M2IfZDpkG/view?usp=sharing'>Demo Video</Button>
+
 
             </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
 import '../PageStyle/AllensCabinets.css'
-import {Carousel, ListGroup} from "react-bootstrap";
+import {Button, Carousel, ListGroup} from "react-bootstrap";
 import ACHome from "../Media/Card Image for Allen's Cabinet.png"
 import ACAdminLogin from "../Media/Allen's Cabinets Admin Login Page.jpg"
 import ACAdminGallery from "../Media/Allen's Cabinets Admin Gallery.jpg"
@@ -9,6 +9,7 @@ import ACGallery from "../Media/Allen's Cabinets Gallery.jpg"
 import ACGalleryDetails from "../Media/Allen's Cabinets Gallery Project Details.jpg"
 import ACAbout from "../Media/Allen's Cabinets About.jpg"
 import ACContact from "../Media/Allen's Cabinets Contact.jpg"
+import {Link} from "react-router-dom";
 
 
 
@@ -70,7 +71,7 @@ const AllensCabinets = () => {
 
                     <ListGroup variant="flush" id='front'>
                         <ListGroup.Item>JavaScript & React</ListGroup.Item>
-                        <ListGroup.Item>Custom CSS</ListGroup.Item>
+                        <ListGroup.Item>Custom CSS </ListGroup.Item>
                         <ListGroup.Item>Imported data by fetching to the backend</ListGroup.Item>
                         <ListGroup.Item>Footer Included</ListGroup.Item>
                     </ListGroup>
@@ -91,6 +92,16 @@ const AllensCabinets = () => {
                     </ListGroup>
 
                 </div>
+
+            </div>
+
+            <div className='controlButtons'>
+
+
+                <Link to='/project'>
+                    <Button variant="outline-secondary">Back to Projects</Button>
+                </Link>
+
 
             </div>
 

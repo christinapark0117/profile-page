@@ -1,11 +1,12 @@
 import React from "react";
 import '../PageStyle/BurgerDiner.css'
-import {Carousel, ListGroup} from "react-bootstrap";
+import {Button, Carousel, ListGroup} from "react-bootstrap";
 import BDLogin from "../Media/Burger Diner Login.png"
 import BDDirections from "../Media/Burger Diner Direction.png"
 import BDLevel from "../Media/Burger Diner Level.png"
 import BDNextLevel from "../Media/Burger Diner Next Level.png"
 import BDPlayAgain from "../Media/Burger Diner Play Again.png"
+import {Link} from "react-router-dom";
 
 
 const BurgerDiner = () => {
@@ -72,6 +73,19 @@ const BurgerDiner = () => {
                     </ListGroup>
 
                 </div>
+
+            </div>
+
+            <div className='controlButtons'>
+
+
+                <Link to='/project'>
+                    <Button variant="outline-secondary">Back to Projects</Button>
+                </Link>
+
+
+                <Button variant="outline-secondary" href='https://drive.google.com/file/d/1xxQUMkuUTKDDt9FE3Wp_H_5M03JC9Wqg/view?usp=sharing'>Demo Video</Button>
+
 
             </div>
 
