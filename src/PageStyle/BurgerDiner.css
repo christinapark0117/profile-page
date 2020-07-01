@@ -88,3 +88,13 @@
     font-family: "Open Sans" !important;
 }
 
+.controlButtons{
+    padding: 1vw 1vw 1vw 1vw;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn{
+    margin: 1vw;
+}
+
