@@ -12,3 +12,14 @@
     font-weight: 200;
     font-size: 2vw;
 }
+
+.mainIcons {
+    padding-left: 45vw;
+}
+
+.icon{
+    margin: .5vw;
+    width: 3vw;
+    height: 5vh;
+    font-size: 1vw;
+}
