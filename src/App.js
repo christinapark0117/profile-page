@@ -22,7 +22,7 @@ function App() {
 
         <Route exact path='/project/breadisgold' component={BreadIsGold} />
         <Route exact path='/project/burgerdiner' component={BurgerDiner} />
-        <Route exact path='/project/allenscabinet' component={AllensCabinets} />
+        <Route exact path='/project/allenscabinets' component={AllensCabinets} />
       </Switch>
     </div>
   );

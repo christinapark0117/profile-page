@@ -12,7 +12,7 @@ import {Carousel, ListGroup} from 'react-bootstrap';
 const BreadIsGold = () => {
 
     return(
-        <div class="eachProjectPage">
+        <div id="eachProjectPage">
 
 
             <h3 className='pageTitle'>Bread Is Gold</h3>
