@@ -72,6 +72,7 @@ const AllensCabinets = () => {
                         <ListGroup.Item>JavaScript & React</ListGroup.Item>
                         <ListGroup.Item>Custom CSS</ListGroup.Item>
                         <ListGroup.Item>Imported data by fetching to the backend</ListGroup.Item>
+                        <ListGroup.Item>Footer Included</ListGroup.Item>
                     </ListGroup>
 
                 </div>
@@ -86,7 +87,7 @@ const AllensCabinets = () => {
                         <ListGroup.Item>PostgreSQL</ListGroup.Item>
                         <ListGroup.Item>Ruby on Rails Mailer</ListGroup.Item>
                         <ListGroup.Item>Serialized RESTful API</ListGroup.Item>
-                        <ListGroup.Item>MVC Pattern</ListGroup.Item>
+                        <ListGroup.Item>Full validations and authentication using JWT token and Bcrypt ruby gem for Admin Login </ListGroup.Item>
                     </ListGroup>
 
                 </div>
