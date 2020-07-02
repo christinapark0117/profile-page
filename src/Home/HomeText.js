@@ -8,14 +8,15 @@ const HomeText = () => {
     return (
         <div className="homeText">
 
-            <div className="mainTitle animated slideInLeft">
-                <p className="mainTitleLine2"><span className="mainTitleName">Welcome to Christina's Website</span> </p>
-                <p>A Software Engineer at Your Service Reinventing Your Web Experience </p>
+            <div className="mainTitle typewriter">
+                <p className="mainTitleLine2 ">Welcome to Christina's Website<br/>A Software Engineer at Your Service Reinventing Your Web Experience
+                </p>
+
             </div>
 
-            <div className="mainIcons">
+            <div className="mainIcons bounceInUp">
                 <Link to="/aboutme">
-                    <img alt='info icon' className='icon' src={info}/>
+                    <img alt='info icon' className='icon ' src={info}/>
                 </Link>
 
                 <a target='blank' href='https://www.linkedin.com/in/christina-park-75b879135/'>
