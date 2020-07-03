@@ -1,0 +1,50 @@
+#project{
+    background-color: lightgray;
+    width: 100vw;
+    height: 90vh;
+}
+
+#projectcard{
+    padding: 3vw;
+    display: flex;
+}
+
+.card{
+    width: 25vw;
+    height: 70vh;
+    margin: 3vw
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat&display=swap');
+
+.card-title{
+    text-align: center;
+    font-family: Caveat !important;
+    color: rgba(16,16,16,0.73) !important;
+    font-weight: 800;
+    font-size: 2vw
+}
+
+.card-img{
+    padding: .3vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+.card-text{
+    font-family: 'Open Sans';
+}
+
+.breadisgoldimg{
+    height: 27vh;
+}
+
+.burgerdinerimg{
+    height: 27vh;
+}
+
+.allensimg{
+    height: 27vh;
+}
+
+

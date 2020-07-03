@@ -1,0 +1,15 @@
+
+#navbar{
+  height: 8vh;
+  background-color: #F8F8F8;
+}
+
+
+#navbar a {
+  font-family: Phosphate-Inline !important;
+  color: rgba(16,16,16,0.73) !important;
+  text-decoration: none;
+  padding: 1vw 1vh;
+  font-weight: 100;
+  font-size: 1.8vw;
+}
