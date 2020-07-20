@@ -90,8 +90,9 @@ const BreadIsGold = () => {
                 </Link>
 
 
-                <Button variant="outline-secondary" href='https://drive.google.com/file/d/1i96tgp3y8Bf_puD6x_jy0n-M2IfZDpkG/view?usp=sharing'>Demo Video</Button>
-
+                <a target='blank' href="https://drive.google.com/file/d/1i96tgp3y8Bf_puD6x_jy0n-M2IfZDpkG/view?usp=sharing">
+                    <Button variant="outline-secondary" >Demo Video</Button>
+                </a>
 
             </div>
 
