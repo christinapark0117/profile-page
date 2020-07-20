@@ -1,5 +1,6 @@
 import React from "react";
 import '../PageStyle/BurgerDiner.css'
+import { Redirect } from 'react-router-dom';
 import {Button, Carousel, ListGroup} from "react-bootstrap";
 import BDLogin from "../Media/Burger Diner Login.png"
 import BDDirections from "../Media/Burger Diner Direction.png"
@@ -78,13 +79,14 @@ const BurgerDiner = () => {
 
             <div className='controlButtons'>
 
-
                 <Link to='/project'>
                     <Button variant="outline-secondary">Back to Projects</Button>
                 </Link>
 
 
-                <Button variant="outline-secondary" href='https://drive.google.com/file/d/1xxQUMkuUTKDDt9FE3Wp_H_5M03JC9Wqg/view?usp=sharing'>Demo Video</Button>
+                <a target='blank' href="https://drive.google.com/file/d/1xxQUMkuUTKDDt9FE3Wp_H_5M03JC9Wqg/view?usp=sharing">
+                    <Button variant="outline-secondary" >Demo Video</Button>
+                </a>
 
 
             </div>
