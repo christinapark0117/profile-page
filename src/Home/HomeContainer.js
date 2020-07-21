@@ -4,7 +4,7 @@ import '../PageStyle/HomeContainer.css'
 
 const HomeContainer = () => {
     return (
-        <div id="home">
+        <div id="home" className='homeContainer'>
             <HomeText />
         </div>
     )

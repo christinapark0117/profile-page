@@ -25,6 +25,26 @@
     font-size: 1vw;
 }
 
+@media only screen and (max-width: 450px) {
+    .homeContainer {
+        background-image: none;
+    }
+
+    .mainIcons {
+        padding-left: 60vw;
+        animation: mymove 5s;
+    }
+
+    .icon{
+        margin: .5vw;
+        width: 2vw;
+        height: 2vh;
+        font-size: 1vw;
+    }
+
+}
+
+
 .typewriter p {
     overflow: hidden;
     white-space: nowrap;
@@ -75,6 +95,8 @@
 .bounceInUp {
     animation-name: bounceInUp;
 }
+
+
 
 
 
