@@ -79,8 +79,15 @@
 
 @media only screen and (max-width: 450px) {
     .homeContainer {
-        background-image: none;
+        display: none;
     }
+
+    .mainIcons {
+        padding: 0;
+        margin-top: 30vh;
+        text-align: center;
+    }
+
 }
 
 
