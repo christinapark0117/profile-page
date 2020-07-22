@@ -26,8 +26,19 @@
 }
 
 @media only screen and (max-width: 450px) {
-    .homeContainer {
-        background-image: none;
+    #home {
+        background-image: url("https://image.freepik.com/free-photo/notebook-with-place-copy-space-white-wooden-background-with-yellow-stickers-vertical_102583-1192.jpg");
+
+        width: 100vw;
+        height: 90vh;
+        background-size: 100vw 90vh;
+        background-repeat: no-repeat;
+    }
+
+    .homeText{
+        padding: 59vh 0 0 16vw;
+        font-weight: 200;
+        font-size: 2vw;
     }
 
     .mainIcons {
