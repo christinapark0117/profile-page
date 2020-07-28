@@ -84,13 +84,22 @@
         grid-area: image;
         height: 50vh;
         width: 50vw;
-        text-align: center;
         padding: 3vh;
-        margin-left: 5vw;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .myImage{
-        height: 40vh;
+        height: 35vh;
         width: 45vw;
+    }
+
+    .bioName {
+        font-weight: 700;
+        margin-bottom: 4vh;
+        font-size: 2vw;
+        margin-bottom: 1vh;
+        font-family: "Caveat";
+        text-align: center;
     }
 }
