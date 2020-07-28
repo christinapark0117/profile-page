@@ -49,8 +49,13 @@
 
 
 @media only screen and (max-width: 450px) {
+
+    #projectCon {
+        display: flex;
+    }
+
     .card{
-        width: 25vw;
+        width: 88vw;
         height: 70vh;
         margin: 3vw
     }
@@ -77,14 +82,14 @@
     }
 
     .burgerdinerimg{
-        height: 6vh;
+        height: auto;
     }
 
     .allensimg{
-        height: 6vh;
+        height: auto;
     }
 
     .btn{
-        font-size: 2vw;
+        font-size: 3vw;
     }
 }
