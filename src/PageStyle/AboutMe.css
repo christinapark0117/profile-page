@@ -71,3 +71,25 @@
     padding-top: 2.5vh;
 }
 
+@media only screen and (max-width: 450px) {
+    #aboutme {
+        height: 90vh;
+        display: grid;
+        grid-template-columns: 100vw;
+        grid-template-rows: 80vh 20vh;
+        grid-template-areas: "bio" "image";
+    }
+
+    .bioImage{
+        grid-area: image;
+        height: 60vh;
+        width: 20vw;
+        text-align: center;
+        padding: 1vh;
+    }
+
+    .myImage{
+        height: 45vh;
+        width: 35vw;
+    }
+}
