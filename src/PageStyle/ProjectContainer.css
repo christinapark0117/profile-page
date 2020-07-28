@@ -48,3 +48,43 @@
 }
 
 
+@media only screen and (max-width: 450px) {
+    .card{
+        width: 25vw;
+        height: 70vh;
+        margin: 3vw
+    }
+
+    .card-title{
+        text-align: center;
+        font-family: Caveat !important;
+        color: rgba(16,16,16,0.73) !important;
+        font-weight: 800;
+        font-size: 4vw
+    }
+
+    .card-img{
+        padding: .3vw;
+    }
+
+    .card-text{
+        font-family: 'Open Sans';
+        font-size: 2.5vw;
+    }
+
+    .breadisgoldimg{
+        height: auto;
+    }
+
+    .burgerdinerimg{
+        height: 6vh;
+    }
+
+    .allensimg{
+        height: 6vh;
+    }
+
+    .btn{
+        font-size: 2vw;
+    }
+}
