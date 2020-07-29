@@ -50,6 +50,12 @@
 
 @media only screen and (max-width: 450px) {
 
+    #project{
+        background-color: lightgray;
+        width: 100vw;
+        height: auto;
+    }
+
     #projectCon{
         display: flex;
     }
