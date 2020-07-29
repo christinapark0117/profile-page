@@ -48,3 +48,60 @@
 }
 
 
+@media only screen and (max-width: 450px) {
+
+    #project{
+        background-color: lightgray;
+        width: 100vw;
+        height: auto;
+    }
+
+    #projectCon{
+        display: flex;
+    }
+
+    #projectcard{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card{
+        width: 88vw;
+        height: 70vh;
+        margin: 3vw;
+    }
+
+    .card-title{
+        text-align: center;
+        font-family: Caveat !important;
+        color: rgba(16,16,16,0.73) !important;
+        font-weight: 800;
+        font-size: 6vw
+    }
+
+    .card-img{
+        padding: .3vw;
+    }
+
+    .card-text{
+        font-family: 'Open Sans';
+        font-size: 4vw;
+    }
+
+    .breadisgoldimg{
+        height: auto;
+    }
+
+    .burgerdinerimg{
+        height: auto;
+    }
+
+    .allensimg{
+        height: auto;
+    }
+
+    .btn{
+        font-size: 3vw;
+    }
+}
