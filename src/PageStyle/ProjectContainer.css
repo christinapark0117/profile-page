@@ -47,7 +47,7 @@
     height: 27vh;
 }
 
-@media only screen and (min-width: 500px) and (max-width: 850px) {
+@media only screen and (min-width: 500px) and (max-width: 900px) {
     #projectcard{
         padding: 1vw;
         display: flex;
