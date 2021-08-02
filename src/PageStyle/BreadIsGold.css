@@ -98,5 +98,41 @@
     margin: 1vw;
 }
 
+@media only screen and (max-width: 500px) {
+
+    .pageTitle{
+        font-family: "Caveat";
+        font-weight: 700;
+        font-size: 5vh;
+        text-align: center;
+        color: rgba(16,16,16,0.73) !important;
+        padding: 1vh;
+    }
+
+    .carousel{
+        height: 30vh;
+        width: 60vw;
+        margin: auto;
+    }
+
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon{
+        margin-top: 16vw !important;
+    }
+
+
+    .project-description{
+        margin: 10vw;
+        margin-top: 3vw;
+        display: grid;
+        grid-template-columns: 50vw 50vw;
+        grid-template-areas:
+                "front back";
+        padding-top: 2vh;
+    }
+
+}
+
+
 
 
