@@ -22,7 +22,7 @@
 
 .myImage{
     height: 72vh;
-    width: 32vw;
+    padding: 2vh;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -71,7 +71,18 @@
     padding-top: 2.5vh;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (min-width: 500px) and (max-width: 1130px) {
+    #aboutme {
+        background-color: #F8F8F8;
+        width: 100vw;
+        height: 100vh;
+    }
+    .myImage{
+        height: 72vh;
+    }
+}
+
+@media only screen and (max-width: 499px) {
     #aboutme {
         height: 90vh;
         display: grid;

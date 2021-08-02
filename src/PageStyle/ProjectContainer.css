@@ -47,8 +47,42 @@
     height: 27vh;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 900px) {
+    #projectcard{
+        padding: 1vw;
+        display: flex;
+    }
 
-@media only screen and (max-width: 450px) {
+    .card{
+        width: 92vw;
+        height: 70vh;
+        margin: 1vw;
+    }
+
+    .breadisgoldimg{
+        height: 21vh;
+    }
+    
+    .burgerdinerimg{
+        height: 21vh;
+    }
+    
+    .allensimg{
+        height: 21vh;
+    }
+
+    .card-text{
+        font-family: 'Open Sans';
+        font-size: 2vw;
+    }
+
+    .btn{
+        font-size: 2vw;
+    }
+}
+
+
+@media only screen and (max-width: 499px) {
 
     #project{
         background-color: lightgray;
@@ -104,4 +138,5 @@
     .btn{
         font-size: 3vw;
     }
+
 }
