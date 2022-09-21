@@ -2,12 +2,12 @@ import React from "react";
 import '../PageStyle/AllensCabinets.css'
 import {Button, Carousel, ListGroup} from "react-bootstrap";
 import ACHome from "../Media/Card Image for Allen's Cabinet.png"
-import ACAdminLogin from "../Media/Allen's Cabinets Admin Login Page.jpg"
-import ACAdminGallery from "../Media/Allen's Cabinets Admin Gallery.jpg"
-import ACAdminPostGallery from "../Media/Allen's Cabinets Gallery Post Form.jpg"
-import ACGallery from "../Media/Allen's Cabinets Gallery.jpg"
-import ACGalleryDetails from "../Media/Allen's Cabinets Gallery Project Details.jpg"
-import ACAbout from "../Media/Allen's Cabinets About.jpg"
+// import ACAdminLogin from "../Media/Allen's Cabinets Admin Login Page.jpg"
+// import ACAdminGallery from "../Media/Allen's Cabinets Admin Gallery.jpg"
+// import ACAdminPostGallery from "../Media/Allen's Cabinets Gallery Post Form.jpg"
+import ACGallery from "../Media/Allen's Cabinets Gallery.png"
+// import ACGalleryDetails from "../Media/Allen's Cabinets Gallery Project Details.jpg"
+import ACAbout from "../Media/Allen's Cabinets About.png"
 import ACContact from "../Media/Allen's Cabinets Contact.png"
 import {Link} from "react-router-dom";
 
@@ -29,7 +29,7 @@ const AllensCabinets = () => {
                     <img src={ACHome} className="d-block w-100" alt="Bread Is Gold home page"/>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <img src={ACAdminLogin} className="d-block w-100" alt="Bread Is Gold home page"/>
                 </Carousel.Item>
 
@@ -39,15 +39,15 @@ const AllensCabinets = () => {
 
                 <Carousel.Item>
                     <img src={ACAdminPostGallery} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
+                </Carousel.Item> */}
 
                 <Carousel.Item>
                     <img src={ACGallery} className="d-block w-100" alt="Bread Is Gold home page"/>
                 </Carousel.Item>
 
-                <Carousel.Item>
+                {/* <Carousel.Item>
                     <img src={ACGalleryDetails} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
+                </Carousel.Item> */}
 
                 <Carousel.Item>
                     <img src={ACAbout} className="d-block w-100" alt="Bread Is Gold home page"/>
