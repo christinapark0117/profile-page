@@ -50,7 +50,7 @@
 
 .bioDetails {
     display: grid;
-    grid-template-row: 20vw 30vw 22vw;
+    /* grid-template-rows: 20vw 30vw 22vw; */
     grid-column-gap: 2vw;
 }
 
@@ -93,15 +93,15 @@
 
     .bioImage{
         grid-area: image;
-        height: 50vh;
-        width: 50vw;
+        height: auto;
+        width: auto;
         margin-left: auto;
         margin-right: auto;
     }
 
     .myImage{
         height: 35vh;
-        width: 45vw;
+        width: 65vw;
     }
 
     .myName{
