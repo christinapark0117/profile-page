@@ -49,11 +49,11 @@
     font-family: "Caveat";
 }
 
-.bioDetails {
+/* .bioDetails {
     display: grid;
-    grid-template-row: 20vw 30vw 22vw;
+    grid-template-rows: 20vw 30vw 22vw;
     grid-column-gap: 2vw;
-}
+} */
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
