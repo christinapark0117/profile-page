@@ -24,7 +24,7 @@ const AboutMe = () => {
                             Who is Christina?
                         </div>
                         <div>
-                            A junior software engineer with expertise in Ruby on Rails and Javascript, React and Redux
+                            A software engineer with expertise in Ruby on Rails and Javascript, React and Redux
                         </div>
                     </div>
 
@@ -33,7 +33,7 @@ const AboutMe = () => {
                             What's Her Background?
                         </div>
                         <div>
-                            Christina majored in Oboe Performance in college. She was a former Symphony Orchestra member, a teacher and a school administrator. Always having interest in art and design, she started designing websites as a hobby. She thought that it would be better if she can bring the websites that she designed alive on her own, so she decided to switch her career to software engineering. Currently she is working on building a website for a local cabinetry business, designing their UI and also bringing that UI into life. It’s been a great experience so far and she’d like to find opportunities that can expand her knowledge on her current expertise as a full stack web developer.
+                            <p>Christina majored in Oboe Performance in college. She was a former Symphony Orchestra member, a teacher, and a school administrator. Always interested in art and design, she started designing websites as a hobby. She thought that it would be better if she could bring the websites that she designed alive on her own, so she decided to switch her career to software engineering. She started her career as a backend developer at <a href='https://www.beachbody.com/en/product/fitness_programs/homepage-v2.do?code=SEMB_BOD_GOOGLE&utm_medium=SEM&utm_source=GOOGLE&utm_campaign=BB_US_SEM_GGL_Brand_Core_Exact&utm_content=14092422213_124793629905&utm_term=beachbody_&gclid=CjwKCAjwyaWZBhBGEiwACslQowPhy0ejOjqZzrsw98xXHk18owF9qTqLxSW0tOO36TaMWLJpNljuOBoCLawQAvD_BwE&gclsrc=aw.ds'>Beachbody</a> and is currently working at <a href='https://www.fdic.gov/'>FDIC (Federal Deposit Insurance Corporation)</a> redesigning and rebuilding their .gov and intranet site. It’s been a great experience so far, and she’d like to find opportunities that can expand her knowledge of her current expertise as a full stack web developer.</p>
                         </div>
                     </div>
 
