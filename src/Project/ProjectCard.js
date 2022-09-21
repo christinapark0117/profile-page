@@ -84,7 +84,7 @@ const ProjectCard = () => {
                 <div className="card-body">
 
 
-                    <h5 className="card-title">Allens's Cabinets</h5>
+                    <h5 className="card-title">Allen's Cabinets</h5>
 
                     <img className="card-img allensimg" alt="Project Image" src={Allens}/>
 

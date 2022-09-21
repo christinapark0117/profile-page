@@ -8,7 +8,7 @@ import ACAdminPostGallery from "../Media/Allen's Cabinets Gallery Post Form.jpg"
 import ACGallery from "../Media/Allen's Cabinets Gallery.jpg"
 import ACGalleryDetails from "../Media/Allen's Cabinets Gallery Project Details.jpg"
 import ACAbout from "../Media/Allen's Cabinets About.jpg"
-import ACContact from "../Media/Allen's Cabinets Contact.jpg"
+import ACContact from "../Media/Allen's Cabinets Contact.png"
 import {Link} from "react-router-dom";
 
 
