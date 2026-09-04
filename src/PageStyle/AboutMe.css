@@ -3,7 +3,7 @@
 #aboutme{
     background-color: #F8F8F8;
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
 
     display: grid;
     grid-template-columns: 50vw 50vw;
@@ -16,13 +16,16 @@
     grid-area: image;
     height: 100vh;
     width: 50vw;
-    text-align: center;
-    padding: 1vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .myImage{
     height: 72vh;
-    padding: 2vh;
+    width: 40vw;
+    object-fit: cover;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
@@ -57,7 +60,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
 .bioDetail {
-    font-size: 2.3vh;
+    font-size: 1.5vh;
     font-weight: 200;
     line-height: 1.3;
     font-family: "Open Sans";
@@ -84,10 +87,11 @@
 
 @media only screen and (max-width: 499px) {
     #aboutme {
-        height: 90vh;
+        min-height: 90vh;
+        height: auto;
         display: grid;
         grid-template-columns: 100vw;
-        grid-template-rows: 40vh 60vh;
+        grid-template-rows: auto auto;
         grid-template-areas: "image" "bio";
     }
 
@@ -120,7 +124,7 @@
     }
 
     .bioDetail {
-        font-size: 1.8vh;
+        font-size: 1.5vh;
         font-weight: 200;
         line-height: 1.3;
         font-family: "Open Sans";
