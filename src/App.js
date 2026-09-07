@@ -8,6 +8,7 @@ import ProjectContainer from "./Project/ProjectContainer";
 import BreadIsGold from "./Project/BreadIsGold";
 import BurgerDiner from "./Project/BurgerDiner";
 import AllensCabinets from "./Project/AllensCabinets";
+import Contact from "./Contact/Contact";
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path='/' component={HomeContainer} />
         <Route exact path='/aboutme' component={AboutMe} />
         <Route exact path='/project' component={ProjectContainer} />
+         <Route exact path='/contact' component={Contact} />
 
         <Route exact path='/project/breadisgold' component={BreadIsGold} />
         <Route exact path='/project/burgerdiner' component={BurgerDiner} />
