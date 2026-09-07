@@ -1,16 +1,20 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
+import '../src/PageStyle/Navbar.css'
 
 const Navbar = () => {
     return (
-        <nav id="navbar" className="navbar navbar-expand-lg navbar-light bg-light">
-            <div className="container-fluid">
-                <div className="navbar-header">
-                    <Link id="homeTitle" className="navbar-brand" to="/">C M P</Link>
-                </div>
-                <div className="nav navbar-nav navbar-right navRight">
-                    <Link className="navOption nav-item nav-link active" to="/aboutme">About Me</Link>
-                    <Link className="navOption nav-item nav-link active" to="/project">Project</Link>
+        <nav id="navbar">
+            <div className="navInner">
+                <Link className="navBrand" to="/">CHRISTINA M. PARK</Link>
+
+                <div className="navLinks">
+                    <NavLink exact className="navLink" activeClassName="navLinkActive" to="/">Home</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/about">About</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/experience">Experience</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/projects">Projects</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/skills">Skills</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/contact">Contact</NavLink>
                 </div>
             </div>
         </nav>

@@ -7,29 +7,36 @@ import github from '../Media/githublogo.png'
 const HomeText = () => {
     return (
         <div className="homeText">
+            <div className="homeTextTop">
+                <div className="eyebrow">Software Engineer</div>
 
-            <div className="mainTitle typewriter">
-                <p className="mainTitleLine2 ">Welcome to Christina's Website<br/>A Software Engineer at Your Service Reinventing Your Web Experience
+                <h1 className="homeTitle">Christina M. Park</h1>
+
+                <p className="homeSubtitle">
+                    Building thoughtful digital products at the intersection of
+                    technology, people, and creativity.
                 </p>
 
+                <div className="homeActions">
+                    <Link className="btn-dark" to="/projects">View My Work →</Link>
+                    <a className="homeTextLink" target="_blank" rel="noreferrer"
+                       href="https://www.linkedin.com/in/meet-christina-park/">LinkedIn</a>
+                    <a className="homeTextLink" target="_blank" rel="noreferrer"
+                       href="https://github.com/christinapark0117">GitHub</a>
+                    <a className="homeTextLink" href="https://drive.google.com/file/d/18Zr4n96bBs7MoqUvq410lJAK_1PZrB0M/view?usp=drive_link" target="_blank" rel="noreferrer">Resume</a>
+                </div>
             </div>
 
-            <div className="mainIcons bounceInUp">
-                <Link to="/aboutme">
-                    <img alt='info icon' className='icon ' src={info}/>
-                </Link>
+            <div className="homeTextBottom">
+                <div className="homeQuote script-quote">
+                    <span className="homeQuoteLine">"Different experiences lead to a different perspective.</span>
+                    <span className="homeQuoteLine">And that perspective is what makes me stand out."</span>
+                </div>
 
-                <a target='blank' href='https://www.linkedin.com/in/christina-park-75b879135/'>
-                    <img alt='linkedin' className='icon' src={linkedin}/>
-                </a>
-
-                <a target='blank' href="https://github.com/christinapark0117?tab=overview&from=2020-06-01&to=2020-06-29">
-                    <img alt='github' className='icon' src={github}/>
-                </a>
-
-
+                <div className="homeScroll">
+                    <span className="homeScrollArrow">↓</span> Scroll
+                </div>
             </div>
-
         </div>
     )
 }
