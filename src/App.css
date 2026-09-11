@@ -5,7 +5,7 @@
   --color-card: #ffffff;
   --color-text: #24262b;
   --color-text-muted: #6b6d72;
-  --color-accent: #1b2540;
+  --color-accent: #243b4d;
   --color-border: #ddd9cf;
 
   --font-serif: 'Playfair Display', Georgia, serif;
@@ -59,6 +59,7 @@ a:hover {
   font-size: clamp(1.8rem, 3vw, 2.6rem);
   line-height: 1.25;
   margin: 0 0 1.25rem 0;
+  color: var(--color-accent);
 }
 
 .btn-dark {
