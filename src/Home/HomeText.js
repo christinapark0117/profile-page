@@ -15,7 +15,7 @@ const HomeText = () => {
                 </p>
 
                 <div className="homeActions">
-                    <Link className="btn-dark" to="/projects">View My Work →</Link>
+                    <Link className="btn-dark" to="/project">View My Work →</Link>
                     <a className="homeTextLink" target="_blank" rel="noreferrer"
                        href="https://www.linkedin.com/in/meet-christina-park/">LinkedIn</a>
                     <a className="homeTextLink" target="_blank" rel="noreferrer"

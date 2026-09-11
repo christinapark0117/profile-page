@@ -12,7 +12,7 @@ const Navbar = () => {
                     <NavLink exact className="navLink" activeClassName="navLinkActive" to="/">Home</NavLink>
                     <NavLink className="navLink" activeClassName="navLinkActive" to="/aboutme">About</NavLink>
                     <NavLink className="navLink" activeClassName="navLinkActive" to="/experience">Experience</NavLink>
-                    <NavLink className="navLink" activeClassName="navLinkActive" to="/projects">Projects</NavLink>
+                    <NavLink className="navLink" activeClassName="navLinkActive" to="/project">Projects</NavLink>
                     <NavLink className="navLink" activeClassName="navLinkActive" to="/skills">Skills</NavLink>
                     <NavLink className="navLink" activeClassName="navLinkActive" to="/contact">Contact</NavLink>
                 </div>
