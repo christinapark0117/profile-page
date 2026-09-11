@@ -1,142 +1,61 @@
-#project{
-    background-color: lightgray;
-    width: 100vw;
-    height: 90vh;
+.projectGrid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
 }
 
-#projectcard{
-    padding: 3vw;
+.projectCard {
     display: flex;
+    flex-direction: column;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
 }
 
-.card{
-    width: 25vw;
-    height: 70vh;
-    margin: 3vw
+.projectCardImageWrap {
+    aspect-ratio: 4 / 3;
+    overflow: hidden;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Caveat&display=swap');
-
-.card-title{
-    text-align: center;
-    font-family: Caveat !important;
-    color: rgba(16,16,16,0.73) !important;
-    font-weight: 800;
-    font-size: 2vw
+.projectCardImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.card-img{
-    padding: .3vw;
+.projectCardBody {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-
-.card-text{
-    font-family: 'Open Sans';
+.projectCardTitle {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0 0 0.75rem 0;
 }
 
-.breadisgoldimg{
-    height: 27vh;
+.projectCardText {
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    font-size: 0.92rem;
+    flex: 1;
+    margin: 0 0 1.25rem 0;
 }
 
-.burgerdinerimg{
-    height: 27vh;
+.projectCardLink {
+    font-family: var(--font-sans);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    text-decoration: none;
+    align-self: flex-start;
 }
 
-.allensimg{
-    height: 27vh;
-}
-
-@media only screen and (min-width: 500px) and (max-width: 900px) {
-    #projectcard{
-        padding: 1vw;
-        display: flex;
-    }
-
-    .card{
-        width: 92vw;
-        height: 70vh;
-        margin: 1vw;
-    }
-
-    .breadisgoldimg{
-        height: 21vh;
-    }
-    
-    .burgerdinerimg{
-        height: 21vh;
-    }
-    
-    .allensimg{
-        height: 21vh;
-    }
-
-    .card-text{
-        font-family: 'Open Sans';
-        font-size: 2vw;
-    }
-
-    .btn{
-        font-size: 2vw;
-    }
-}
-
-
-@media only screen and (max-width: 499px) {
-
-    #project{
-        background-color: lightgray;
-        width: 100vw;
-        height: auto;
-    }
-
-    #projectCon{
-        display: flex;
-    }
-
-    #projectcard{
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .card{
-        width: 88vw;
-        height: 70vh;
-        margin: 3vw;
-    }
-
-    .card-title{
-        text-align: center;
-        font-family: Caveat !important;
-        color: rgba(16,16,16,0.73) !important;
-        font-weight: 800;
-        font-size: 6vw
-    }
-
-    .card-img{
-        padding: .3vw;
-    }
-
-    .card-text{
-        font-family: 'Open Sans';
-        font-size: 4vw;
-    }
-
-    .breadisgoldimg{
-        height: auto;
-    }
-
-    .burgerdinerimg{
-        height: auto;
-    }
-
-    .allensimg{
-        height: auto;
-    }
-
-    .btn{
-        font-size: 3vw;
-    }
-
+@media only screen and (max-width: 900px) {
+    .projectGrid { grid-template-columns: 1fr; }
 }
