@@ -54,4 +54,33 @@ const experience = [
     },
 ]
 
+const Experience = () => {
+    return (
+        <div id="experience" className="page-section">
+            <div className="eyebrow">Experience</div>
+            <h1 className="section-heading">Turning Ideas into<br/>Real-World Impact</h1>
+
+            <div className="timeline">
+                {experience.map((job) => (
+                    <div className="timelineItem" key={job.role + job.years}>
+                        <div className="timelineDot" />
+                        <div className="timelineContent">
+                            <div className="timelineHeader">
+                                <div>
+                                    <div className="timelineRole">{job.role}</div>
+                                    {job.org && <div className="timelineOrg">{job.org}</div>}
+                                </div>
+                                <div className="timelineYears">{job.years}</div>
+                            </div>
+                            <ul className="timelineBullets">
+                                {job.bullets.map((b) => <li key={b}>{b}</li>)}
+                            </ul>
+                        </div>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )
+}
+
 export default Experience
