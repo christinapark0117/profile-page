@@ -31,6 +31,7 @@
     font-size: clamp(2.2rem, 4.2vw, 3.2rem);
     white-space: nowrap;
     margin: 0 0 1rem 0;
+    color: var(--color-accent);
 }
 
 .homeSubtitle {
