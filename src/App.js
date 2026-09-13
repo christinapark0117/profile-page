@@ -6,6 +6,7 @@ import HomeContainer from "./Home/HomeContainer";
 import AboutMe from "./AboutMe/AboutMe";
 import Experience from "./Experience/Experience"
 import ProjectContainer from "./Project/ProjectContainer";
+import Skills from "./Skills/Skills";
 import BreadIsGold from "./Project/BreadIsGold";
 import BurgerDiner from "./Project/BurgerDiner";
 import AllensCabinets from "./Project/AllensCabinets";
@@ -22,6 +23,7 @@ function App() {
         <Route exact path='/aboutme' component={AboutMe} />
         <Route exact path='/experience' component={Experience} />
         <Route exact path='/project' component={ProjectContainer} />
+        <Route exact path='/skills' component={Skills} />
          <Route exact path='/contact' component={Contact} />
 
         <Route exact path='/project/breadisgold' component={BreadIsGold} />
