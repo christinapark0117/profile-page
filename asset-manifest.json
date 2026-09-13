@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.00b0e4e9.css",
-    "main.js": "/static/js/main.5027e516.js",
+    "main.js": "/static/js/main.c7338fe5.js",
     "static/media/Card Img for Bread Is Gold .png": "/static/media/Card Img for Bread Is Gold .05b4d6a015c4e38737ff.png",
     "static/media/Card Img for Burger Diner.png": "/static/media/Card Img for Burger Diner.f53c4e63037c955a1cc6.png",
     "static/media/Bread Is Gold My Recipes.jpg": "/static/media/Bread Is Gold My Recipes.abfe7faef18dd5be3aa3.jpg",
@@ -36,10 +36,10 @@
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
     "main.00b0e4e9.css.map": "/static/css/main.00b0e4e9.css.map",
-    "main.5027e516.js.map": "/static/js/main.5027e516.js.map"
+    "main.c7338fe5.js.map": "/static/js/main.c7338fe5.js.map"
   },
   "entrypoints": [
     "static/css/main.00b0e4e9.css",
-    "static/js/main.5027e516.js"
+    "static/js/main.c7338fe5.js"
   ]
 }
