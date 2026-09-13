@@ -1,8 +1,5 @@
 import React from "react";
 import { Link } from 'react-router-dom'
-import info from '../Media/info.png'
-import linkedin from '../Media/linkedinlogo.png'
-import github from '../Media/githublogo.png'
 
 const HomeText = () => {
     return (
