@@ -40,7 +40,60 @@
     border-bottom: 1px solid var(--color-accent);
 }
 
+.navToggle {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 24px;
+    height: 18px;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.navToggle span {
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: var(--color-text);
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.navToggleOpen span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.navToggleOpen span:nth-child(2) {
+    opacity: 0;
+}
+
+.navToggleOpen span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
 @media only screen and (max-width: 700px) {
-    .navInner { flex-direction: column; gap: 1rem; }
-    .navLinks { flex-wrap: wrap; justify-content: center; gap: 1rem 1.25rem; }
+    .navInner { position: relative; flex-direction: row; }
+
+    .navToggle { display: flex; }
+
+    .navLinks {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 1.25rem;
+        background: var(--color-bg);
+        border-bottom: 1px solid var(--color-border);
+        padding: 1.5rem 0;
+        z-index: 50;
+    }
+
+    .navLinksOpen {
+        display: flex;
+    }
 }
