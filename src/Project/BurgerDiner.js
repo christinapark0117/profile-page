@@ -17,7 +17,7 @@ const images = [
 
 const BurgerDiner = () => (
     <ProjectDetail
-        number="03"
+        number="02"
         title="Burger Diner"
         description="An interactive browser game where players build burger orders using dynamic UI logic and front-end interactions."
         role="Frontend / Full-Stack Developer"
@@ -34,7 +34,7 @@ const BurgerDiner = () => (
         ]}
         frontend={["JavaScript (DOM Manipulation)", "Semantic UI + Custom CSS", "Imported data by fetching to the backend"]}
         backend={["Ruby on Rails", "SQLite3", "Serialized RESTful API", "MVC Pattern"]}
-        nextLink="/project/breadisgold"
+        nextLink="/project/allenscabinets"
     />
 );
 

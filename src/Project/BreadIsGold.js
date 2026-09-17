@@ -36,7 +36,7 @@ const BreadIsGold = () => (
         ]}
         frontend={["React", "JavaScript (ES6+)", "Custom CSS"]}
         backend={["Ruby on Rails", "PostgreSQL", "RESTful API", "MVC architecture"]}
-        nextLink="/project/allenscabinets"
+        nextLink="/project/burgerdiner"
     />
 );
 
