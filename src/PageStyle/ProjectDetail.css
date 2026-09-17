@@ -247,7 +247,7 @@
     }
 
     .projectHeroImageWrap {
-        height: 260px;
+        display: none;
     }
 
     .projectCarousel {
