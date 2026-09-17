@@ -20,7 +20,7 @@ const HomeText = () => {
                        href="https://www.linkedin.com/in/meet-christina-park/">LinkedIn</a>
                     <a className="homeTextLink" target="_blank" rel="noreferrer"
                        href="https://github.com/christinapark0117">GitHub</a>
-                    <a className="homeTextLink" href="https://drive.google.com/file/d/18Zr4n96bBs7MoqUvq410lJAK_1PZrB0M/view?usp=drive_link" target="_blank" rel="noreferrer">Resume</a>
+                    <a className="homeTextLink" href="https://drive.google.com/file/d/1-WRYTW2S2rnOLXtiCtL-kodQ-sRgqfw8/view?usp=sharing" rel="noreferrer">Resume</a>
                 </div>
             </div>
 
