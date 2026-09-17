@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.45939c23.css",
-    "main.js": "/static/js/main.a0d37595.js",
+    "main.css": "/static/css/main.4dfd614f.css",
+    "main.js": "/static/js/main.b0e61b13.js",
+    "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
     "static/media/Card Img for Bread Is Gold .png": "/static/media/Card Img for Bread Is Gold .05b4d6a015c4e38737ff.png",
     "static/media/Card Img for Burger Diner.png": "/static/media/Card Img for Burger Diner.f53c4e63037c955a1cc6.png",
     "static/media/Bread Is Gold My Recipes.jpg": "/static/media/Bread Is Gold My Recipes.abfe7faef18dd5be3aa3.jpg",
     "static/media/Bread is Gold Home.jpg": "/static/media/Bread is Gold Home.12e6901756488193c640.jpg",
+    "static/media/burger-diner-banner.PNG": "/static/media/burger-diner-banner.42096b8e458908b67562.PNG",
     "static/media/Bread Is Gold Chefs Page.png": "/static/media/Bread Is Gold Chefs Page.c51eba46949992b9ed61.png",
     "static/media/Bread Is Gold Recipes List.jpg": "/static/media/Bread Is Gold Recipes List.95f361d993db15765ce1.jpg",
     "static/media/Burger Diner Direction.png": "/static/media/Burger Diner Direction.3e541b1ee73975e28a71.png",
     "static/media/Bread Is Gold Welcome Page.jpg": "/static/media/Bread Is Gold Welcome Page.9d20ec775c79baeff070.jpg",
+    "static/media/allens-cabinet-banner.PNG": "/static/media/allens-cabinet-banner.63e1b01e4a31359b22f2.PNG",
     "static/media/Burger Diner Play Again.png": "/static/media/Burger Diner Play Again.ac53969502b9e4a5412e.png",
     "static/media/Burger Diner Level.png": "/static/media/Burger Diner Level.23c8e4622f4cac15acbc.png",
     "static/media/Burger Diner Login.png": "/static/media/Burger Diner Login.d419fb8a04ea45c2973b.png",
@@ -35,11 +38,11 @@
     "static/media/icon-databases.svg": "/static/media/icon-databases.4f4043e7120143fce3cab3eef63e3b7e.svg",
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
-    "main.45939c23.css.map": "/static/css/main.45939c23.css.map",
-    "main.a0d37595.js.map": "/static/js/main.a0d37595.js.map"
+    "main.4dfd614f.css.map": "/static/css/main.4dfd614f.css.map",
+    "main.b0e61b13.js.map": "/static/js/main.b0e61b13.js.map"
   },
   "entrypoints": [
-    "static/css/main.45939c23.css",
-    "static/js/main.a0d37595.js"
+    "static/css/main.4dfd614f.css",
+    "static/js/main.b0e61b13.js"
   ]
 }
