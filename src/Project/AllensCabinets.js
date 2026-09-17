@@ -1,117 +1,43 @@
 import React from "react";
-import '../PageStyle/AllensCabinets.css'
-import {Button, Carousel, ListGroup} from "react-bootstrap";
-import ACHome from "../Media/Card Image for Allen's Cabinet.png"
-// import ACAdminLogin from "../Media/Allen's Cabinets Admin Login Page.jpg"
-// import ACAdminGallery from "../Media/Allen's Cabinets Admin Gallery.jpg"
-// import ACAdminPostGallery from "../Media/Allen's Cabinets Gallery Post Form.jpg"
-import ACGallery from "../Media/Allen's Cabinets Gallery.png"
-// import ACGalleryDetails from "../Media/Allen's Cabinets Gallery Project Details.jpg"
-import ACAbout from "../Media/Allen's Cabinets About.png"
-import ACContact from "../Media/Allen's Cabinets Contact.png"
-import {Link} from "react-router-dom";
+import ProjectDetail from "./ProjectDetail";
+import AllensCabinetBanner from "../Media/allens-cabinet-banner.PNG";
+import ACHome from "../Media/Card Image for Allen's Cabinet.png";
+import ACGallery from "../Media/Allen's Cabinets Gallery.png";
+import ACAbout from "../Media/Allen's Cabinets About.png";
+import ACContact from "../Media/Allen's Cabinets Contact.png";
 
+const images = [
+    { src: ACHome, alt: "Allen's Cabinets home page" },
+    { src: ACGallery, alt: "Allen's Cabinets gallery page" },
+    { src: ACAbout, alt: "Allen's Cabinets about page" },
+    { src: ACContact, alt: "Allen's Cabinets contact page" },
+];
 
+const AllensCabinets = () => (
+    <ProjectDetail
+        number="02"
+        title="Allen's Cabinets Kitchen & Bath"
+        description="A full-stack business website designed to showcase cabinetry services, renovation work, and customer inquiries."
+        role="Full-Stack Developer"
+        stack="React, Ruby on Rails, PostgreSQL"
+        focus="Business Website, Admin Features, Inquiry Flow"
+        bannerImage={AllensCabinetBanner}
+        bannerAlt="Allen's Cabinets Kitchen & Bath banner"
+        images={images}
+        overview={[
+            "Allen's Cabinets Kitchen & Bath is a full-stack website for a residential cabinetry and renovation business. The site showcases cabinetry services, project imagery, and provides an easy way for customers to get in touch through a contact and inquiry system.",
+            "This project was built to give the business a clean, professional online presence, highlight their work, and make it simple for potential clients to learn about services and request an estimate or more information.",
+        ]}
+        frontend={["JavaScript & React", "Custom CSS", "Imported data by fetching to the backend", "Footer Included"]}
+        backend={[
+            "Ruby on Rails",
+            "PostgreSQL",
+            "Ruby on Rails Mailer",
+            "Serialized RESTful API",
+            "Full validations and authentication using JWT token and Bcrypt ruby gem for Admin Login",
+        ]}
+        nextLink="/project/burgerdiner"
+    />
+);
 
-const AllensCabinets = () => {
-
-    return(
-        <div id="eachProjectPage">
-
-
-            <h3 className='pageTitle'>Allen's Cabinets Kitchen & Bath</h3>
-
-
-            <Carousel indicators={false}>
-
-
-                <Carousel.Item>
-                    <img src={ACHome} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-                {/* <Carousel.Item>
-                    <img src={ACAdminLogin} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img src={ACAdminGallery} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img src={ACAdminPostGallery} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item> */}
-
-                <Carousel.Item>
-                    <img src={ACGallery} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-                {/* <Carousel.Item>
-                    <img src={ACGalleryDetails} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item> */}
-
-                <Carousel.Item>
-                    <img src={ACAbout} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-                <Carousel.Item>
-                    <img src={ACContact} className="d-block w-100" alt="Bread Is Gold home page"/>
-                </Carousel.Item>
-
-
-
-            </Carousel>
-
-
-
-            <div className='project-description'>
-
-                <div className='frontend'>
-
-                    <h5 className='pageTitle2'>Frontend</h5>
-
-                    <ListGroup variant="flush" id='front'>
-                        <ListGroup.Item>JavaScript & React</ListGroup.Item>
-                        <ListGroup.Item>Custom CSS </ListGroup.Item>
-                        <ListGroup.Item>Imported data by fetching to the backend</ListGroup.Item>
-                        <ListGroup.Item>Footer Included</ListGroup.Item>
-                    </ListGroup>
-
-                </div>
-
-
-                <div className='backend'>
-
-                    <h5 className='pageTitle3'>Backend</h5>
-
-                    <ListGroup variant="flush" id='back'>
-                        <ListGroup.Item>Ruby on Rails</ListGroup.Item>
-                        <ListGroup.Item>PostgreSQL</ListGroup.Item>
-                        <ListGroup.Item>Ruby on Rails Mailer</ListGroup.Item>
-                        <ListGroup.Item>Serialized RESTful API</ListGroup.Item>
-                        <ListGroup.Item>Full validations and authentication using JWT token and Bcrypt ruby gem for Admin Login </ListGroup.Item>
-                    </ListGroup>
-
-                </div>
-
-            </div>
-
-            <div className='controlButtons'>
-
-
-                <Link to='/project'>
-                    <Button variant="outline-secondary">Back to Projects</Button>
-                </Link>
-
-
-            </div>
-
-        </div>
-    )
-
-};
-
-
-export default AllensCabinets
-
-
-
+export default AllensCabinets;

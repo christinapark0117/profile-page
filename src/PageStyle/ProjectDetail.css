@@ -1,0 +1,298 @@
+.projectHero {
+    display: grid;
+    grid-template-columns: minmax(320px, 560px) 1fr;
+    align-items: stretch;
+    min-height: 420px;
+}
+
+.projectHeroText {
+    padding: 9vh var(--page-pad) 9vh var(--page-pad);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 560px;
+}
+
+.projectTitle {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: clamp(2.1rem, 4.2vw, 3rem);
+    line-height: 1.15;
+    color: var(--color-accent);
+    margin: 0.5rem 0 1rem 0;
+}
+
+.projectSubtitle {
+    color: var(--color-text-muted);
+    font-size: 1.02rem;
+    line-height: 1.6;
+    max-width: 460px;
+    margin: 0;
+}
+
+.projectMeta {
+    display: flex;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    margin: 2.25rem 0 2rem 0;
+}
+
+.projectMetaLabel {
+    font-family: var(--font-sans);
+    font-size: 0.7rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--color-text-muted);
+    margin-bottom: 0.5rem;
+}
+
+.projectMetaValue {
+    font-size: 0.92rem;
+    line-height: 1.5;
+    color: var(--color-text);
+    max-width: 190px;
+}
+
+.projectDemoBtn {
+    align-self: flex-start;
+}
+
+.projectHeroImageWrap {
+    position: relative;
+    overflow: hidden;
+    background: var(--color-bg-alt);
+}
+
+.projectHeroImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.projectBody {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 0 var(--page-pad) 8vh var(--page-pad);
+}
+
+.projectCarousel {
+    position: relative;
+    margin-top: -70px;
+    z-index: 2;
+}
+
+.projectCarouselFrame {
+    background: var(--color-card);
+    border-radius: 10px;
+    box-shadow: 0 24px 55px rgba(20, 20, 20, 0.14);
+    padding: 2rem;
+    max-width: 820px;
+    margin: 0 auto;
+}
+
+.projectCarouselImageWrap {
+    border-radius: 4px;
+    overflow: hidden;
+    background: var(--color-bg-alt);
+}
+
+.projectCarouselImage {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.carouselArrowBtn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    color: var(--color-accent);
+    font-size: 1.4rem;
+    line-height: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    z-index: 3;
+    padding: 0;
+}
+
+.carouselArrowBtn:hover {
+    background: var(--color-bg-alt);
+}
+
+.carouselArrowPrev {
+    left: -22px;
+}
+
+.carouselArrowNext {
+    right: -22px;
+}
+
+.carouselDots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.75rem;
+}
+
+.carouselDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-border);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.carouselDotActive {
+    background: var(--color-accent);
+}
+
+.projectSection {
+    padding-top: 5rem;
+}
+
+.projectSectionHeading {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: clamp(1.5rem, 2.6vw, 2rem);
+    color: var(--color-accent);
+    margin: 0 0 1.5rem 0;
+}
+
+.projectOverviewGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.projectOverviewGrid p {
+    color: var(--color-text-muted);
+    line-height: 1.7;
+    font-size: 0.98rem;
+    margin: 0;
+}
+
+.projectDivider {
+    border: none;
+    border-top: 1px solid var(--color-border);
+    margin: 0 0 2rem 0;
+}
+
+.projectTechGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.projectTechHeading {
+    font-family: var(--font-sans);
+    font-weight: 600;
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0 0 1rem 0;
+}
+
+.projectTechList {
+    margin: 0;
+    padding-left: 1.1rem;
+    color: var(--color-text-muted);
+    line-height: 1.9;
+    font-size: 0.95rem;
+}
+
+.projectFooterNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--color-border);
+    padding-top: 2.5rem;
+    margin-top: 3rem;
+    font-family: var(--font-sans);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.projectFooterLink {
+    text-decoration: none;
+    color: var(--color-text);
+}
+
+.projectFooterLink:hover {
+    color: var(--color-accent);
+}
+
+@media only screen and (max-width: 900px) {
+    .projectHero {
+        grid-template-columns: 1fr;
+    }
+
+    .projectHeroText {
+        padding: 6vh var(--page-pad) 3vh var(--page-pad);
+        max-width: 100%;
+    }
+
+    .projectSubtitle {
+        max-width: 100%;
+    }
+
+    .projectHeroImageWrap {
+        height: 260px;
+    }
+
+    .projectCarousel {
+        margin-top: 2rem;
+    }
+
+    .carouselArrowPrev {
+        left: -12px;
+    }
+
+    .carouselArrowNext {
+        right: -12px;
+    }
+
+    .projectCarouselFrame {
+        padding: 1rem;
+    }
+
+    .projectOverviewGrid,
+    .projectTechGrid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .projectSection {
+        padding-top: 3.5rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .carouselArrowBtn {
+        width: 36px;
+        height: 36px;
+        font-size: 1.2rem;
+    }
+
+    .carouselArrowPrev {
+        left: -8px;
+    }
+
+    .carouselArrowNext {
+        right: -8px;
+    }
+
+    .projectMeta {
+        gap: 1.5rem;
+    }
+}
