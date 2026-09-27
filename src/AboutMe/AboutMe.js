@@ -3,9 +3,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../PageStyle/AboutMe.css'
 import BioImage from "../Media/aboutmeprofilepic.jpeg"
-import Music from "../Media/musicnote.png"
-import Education from "../Media/education.png"
-import Technology from "../Media/technology.png"
 
 const features = [
     { icon: "🎵", title: "Music", lines: ["B.M. in Oboe Performance", "Former orchestral musician"] },
