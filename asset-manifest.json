@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.55f80c1b.css",
-    "main.js": "/static/js/main.392470db.js",
+    "main.css": "/static/css/main.a70e0464.css",
+    "main.js": "/static/js/main.083464fe.js",
     "static/media/Allen's Cabinets Home.png": "/static/media/Allen's Cabinets Home.3578e789ef3666d4a295.png",
     "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
     "static/media/Card Img for Bread Is Gold .png": "/static/media/Card Img for Bread Is Gold .05b4d6a015c4e38737ff.png",
@@ -35,11 +35,11 @@
     "static/media/icon-databases.svg": "/static/media/icon-databases.4f4043e7120143fce3cab3eef63e3b7e.svg",
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
-    "main.55f80c1b.css.map": "/static/css/main.55f80c1b.css.map",
-    "main.392470db.js.map": "/static/js/main.392470db.js.map"
+    "main.a70e0464.css.map": "/static/css/main.a70e0464.css.map",
+    "main.083464fe.js.map": "/static/js/main.083464fe.js.map"
   },
   "entrypoints": [
-    "static/css/main.55f80c1b.css",
-    "static/js/main.392470db.js"
+    "static/css/main.a70e0464.css",
+    "static/js/main.083464fe.js"
   ]
 }
