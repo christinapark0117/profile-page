@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1956b8d7.css",
-    "main.js": "/static/js/main.bc0fd54b.js",
+    "main.js": "/static/js/main.392470db.js",
     "static/media/Allen's Cabinets Home.png": "/static/media/Allen's Cabinets Home.3578e789ef3666d4a295.png",
     "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
     "static/media/Card Img for Bread Is Gold .png": "/static/media/Card Img for Bread Is Gold .05b4d6a015c4e38737ff.png",
@@ -20,17 +20,13 @@
     "static/media/Allen's Cabinets About.png": "/static/media/Allen's Cabinets About.d9a251784a3607f5008e.png",
     "static/media/Burger Diner Login.png": "/static/media/Burger Diner Login.d419fb8a04ea45c2973b.png",
     "static/media/Burger Diner Next Level.png": "/static/media/Burger Diner Next Level.b7d83c804779468e93de.png",
-    "static/media/Card Image for Allen's Cabinet.png": "/static/media/Card Image for Allen's Cabinet.8b47e0c8ddf676fd05f4.png",
     "static/media/Bread Is Gold Recipe Detail Page.jpg": "/static/media/Bread Is Gold Recipe Detail Page.f6374cde0ceb0a9ef26d.jpg",
     "static/media/Allen's Cabinets Contact.png": "/static/media/Allen's Cabinets Contact.b69e8b144437fa842f03.png",
-    "static/media/technology.png": "/static/media/technology.d0988c0b8b60e21f8f98.png",
     "static/media/githublogo.png": "/static/media/githublogo.ced2cf2d108a9e1af132.png",
-    "static/media/education.png": "/static/media/education.531743b0ff3f051e4aa4.png",
     "static/media/linkedinlogo.png": "/static/media/linkedinlogo.09e795d068b6d8e798b4.png",
     "static/media/contact-photo.jpeg": "/static/media/contact-photo.5fbcbda48907eb838cf8.jpeg",
     "static/media/home-hero.jpeg": "/static/media/home-hero.9835bc8d5f795bfbf7d4.jpeg",
     "static/media/mail.png": "/static/media/mail.4d24bbbc782dd35c6a9f.png",
-    "static/media/musicnote.png": "/static/media/musicnote.7afb231800d52eba6d96.png",
     "static/media/aboutmeprofilepic.jpeg": "/static/media/aboutmeprofilepic.e3f15710a3c2db726177.jpeg",
     "index.html": "/index.html",
     "static/media/icon-methodologies.svg": "/static/media/icon-methodologies.f8749ac8a246d0160dec1c9a692ec675.svg",
@@ -40,10 +36,10 @@
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
     "main.1956b8d7.css.map": "/static/css/main.1956b8d7.css.map",
-    "main.bc0fd54b.js.map": "/static/js/main.bc0fd54b.js.map"
+    "main.392470db.js.map": "/static/js/main.392470db.js.map"
   },
   "entrypoints": [
     "static/css/main.1956b8d7.css",
-    "static/js/main.bc0fd54b.js"
+    "static/js/main.392470db.js"
   ]
 }
