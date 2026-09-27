@@ -1,7 +1,7 @@
 import React from "react";
 import ProjectDetail from "./ProjectDetail";
 import AllensCabinetBanner from "../Media/allens-cabinet-banner.PNG";
-import ACHome from "../Media/Card Image for Allen's Cabinet.png";
+import ACHome from "../Media/Allen's Cabinets Home.png";
 import ACGallery from "../Media/Allen's Cabinets Gallery.png";
 import ACAbout from "../Media/Allen's Cabinets About.png";
 import ACContact from "../Media/Allen's Cabinets Contact.png";
@@ -21,6 +21,8 @@ const AllensCabinets = () => (
         role="Full-Stack Developer"
         stack="React, Ruby on Rails, PostgreSQL"
         focus="Business Website, Admin Features, Inquiry Flow"
+        demoLink="https://www.allenscabinets.com/"
+        demoLabel="Visit Allen's Cabinets"
         bannerImage={AllensCabinetBanner}
         bannerAlt="Allen's Cabinets Kitchen & Bath banner"
         images={images}
