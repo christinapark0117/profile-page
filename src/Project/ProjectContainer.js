@@ -3,7 +3,7 @@ import ProjectCard from "./ProjectCard";
 import '../PageStyle/ProjectContainer.css'
 import BreadIsGoldImg from "../Media/Card Img for Bread Is Gold .png"
 import BurgerDinerImg from "../Media/Card Img for Burger Diner.png"
-import AllensImg from "../Media/Card Image for Allen's Cabinet.png"
+import AllensImg from "../Media/Allen's Cabinets Home.png"
 
 const projects = [
     {
