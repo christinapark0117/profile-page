@@ -37,6 +37,53 @@
     align-items: baseline;
     flex-wrap: wrap;
     gap: 0.5rem;
+    width: 100%;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    color: inherit;
+    text-align: left;
+    cursor: pointer;
+}
+
+.timelineHeader:hover .timelineRole {
+    opacity: 0.8;
+}
+
+.timelineMeta {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+}
+
+.timelineChevron {
+    width: 8px;
+    height: 8px;
+    border-right: 1.5px solid var(--color-accent);
+    border-bottom: 1.5px solid var(--color-accent);
+    transform: translateY(-2px) rotate(45deg);
+    transition: transform 0.3s ease;
+}
+
+.timelineItemOpen .timelineChevron {
+    transform: translateY(2px) rotate(-135deg);
+}
+
+/* Animating grid rows from 0fr to 1fr lets the panel grow to its natural height,
+   so the page length follows however many items are open */
+.timelinePanel {
+    display: grid;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.3s ease;
+}
+
+.timelineItemOpen .timelinePanel {
+    grid-template-rows: 1fr;
+}
+
+.timelinePanelInner {
+    overflow: hidden;
 }
 
 .timelineRole { 
