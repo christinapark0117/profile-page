@@ -16,17 +16,17 @@ const skillGroups = [
     { 
         category: "Frameworks & Libraries",
         Icon: FrameworksIcon,
-        skills: ["React", "Redux", "Drupal", "Ruby on Rails", "Bootstrap / Tailwind CSS"] 
+        skills: ["React 19", "React Router", "Drupal", "Ruby on Rails", "Vite", "Bootstrap / Tailwind CSS"] 
     },
     { 
-        category: "Databases",
+        category: "Databases & Backend Services",
         Icon: DatabasesIcon,
-        skills: ["PostgreSQL", "MySQL", "SQLite"] 
+        skills: ["PostgreSQL", "Supabase", "MySQL", "SQLite", "Google App Script", "Google Calendar API", "Google Sheets"] 
     },
     { 
         category: "Development & Tools",
         Icon: ToolsIcon, 
-        skills: ["Git / GitHub", "REST APIs", "CI/CD (familiar)", "VS Code", "Jira / Confluence"] 
+        skills: ["Git / GitHub", "REST APIs", "CI/CD (familiar)", "Netlify", "Vercel", "npm", "ESLint", "VS Code"] 
     },
     { 
         category: "Methodologies",
@@ -36,7 +36,7 @@ const skillGroups = [
     { 
         category: "Other",
         Icon: OtherIcon,
-        skills: ["API Integration", "Responsive Web Design", "Accessibility (WCAG, familiar)"] 
+        skills: ["API Integration", "Responsive Web Design", "Accessibility (WCAG, familiar)", "Booking & Scheduling Flows", "Email Automation", "Image Optimization"] 
     },
 ]
 
