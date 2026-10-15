@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.51ad5204.css",
-    "main.js": "/static/js/main.b057dda1.js",
+    "main.js": "/static/js/main.8df20734.js",
     "static/media/Allen's Cabinets Home.png": "/static/media/Allen's Cabinets Home.3578e789ef3666d4a295.png",
     "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
     "static/media/Bread Is Gold My Recipes.jpg": "/static/media/Bread Is Gold My Recipes.abfe7faef18dd5be3aa3.jpg",
@@ -23,11 +23,20 @@
     "static/media/burger-diner-card.jpg": "/static/media/burger-diner-card.c5f4f54ebe04072b3b70.jpg",
     "static/media/genesis-massage-banner.jpg": "/static/media/genesis-massage-banner.e40a263479b65fa93f34.jpg",
     "static/media/githublogo.png": "/static/media/githublogo.ced2cf2d108a9e1af132.png",
+    "static/media/Genesis Massage About.jpg": "/static/media/Genesis Massage About.7874192b2dd9905152b5.jpg",
     "static/media/bread-is-gold-card.jpg": "/static/media/bread-is-gold-card.a8ba16a4b351f1711964.jpg",
+    "static/media/Genesis Massage Booking Service.jpg": "/static/media/Genesis Massage Booking Service.415cea5c7b45071014c1.jpg",
     "static/media/linkedinlogo.png": "/static/media/linkedinlogo.09e795d068b6d8e798b4.png",
     "static/media/contact-photo.jpeg": "/static/media/contact-photo.5fbcbda48907eb838cf8.jpeg",
+    "static/media/Genesis Massage Home.jpg": "/static/media/Genesis Massage Home.862a672cd5e69711c440.jpg",
     "static/media/home-hero.jpeg": "/static/media/home-hero.9835bc8d5f795bfbf7d4.jpeg",
+    "static/media/Genesis Massage Services.jpg": "/static/media/Genesis Massage Services.0506b47f55e0c7e19fbe.jpg",
     "static/media/mail.png": "/static/media/mail.4d24bbbc782dd35c6a9f.png",
+    "static/media/Genesis Massage Contact.jpg": "/static/media/Genesis Massage Contact.20e7860c95c67ec856ea.jpg",
+    "static/media/Genesis Massage Reviews.jpg": "/static/media/Genesis Massage Reviews.3d952087bf535397d6c5.jpg",
+    "static/media/Genesis Massage Booking Calendar.jpg": "/static/media/Genesis Massage Booking Calendar.f3e32f4858090497aca9.jpg",
+    "static/media/Genesis Massage Booking Call Modal.jpg": "/static/media/Genesis Massage Booking Call Modal.e4b1f6e4c09ce14c7962.jpg",
+    "static/media/Genesis Massage Booking Form.jpg": "/static/media/Genesis Massage Booking Form.99a8525b3f31f3661571.jpg",
     "static/media/aboutmeprofilepic.jpeg": "/static/media/aboutmeprofilepic.e3f15710a3c2db726177.jpeg",
     "static/media/genesis-massage-card.webp": "/static/media/genesis-massage-card.c8ec504088236f397f3e.webp",
     "index.html": "/index.html",
@@ -38,10 +47,10 @@
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
     "main.51ad5204.css.map": "/static/css/main.51ad5204.css.map",
-    "main.b057dda1.js.map": "/static/js/main.b057dda1.js.map"
+    "main.8df20734.js.map": "/static/js/main.8df20734.js.map"
   },
   "entrypoints": [
     "static/css/main.51ad5204.css",
-    "static/js/main.b057dda1.js"
+    "static/js/main.8df20734.js"
   ]
 }
