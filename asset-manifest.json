@@ -1,11 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.a70e0464.css",
-    "main.js": "/static/js/main.083464fe.js",
+    "main.css": "/static/css/main.51ad5204.css",
+    "main.js": "/static/js/main.b057dda1.js",
     "static/media/Allen's Cabinets Home.png": "/static/media/Allen's Cabinets Home.3578e789ef3666d4a295.png",
     "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
-    "static/media/Card Img for Bread Is Gold .png": "/static/media/Card Img for Bread Is Gold .05b4d6a015c4e38737ff.png",
-    "static/media/Card Img for Burger Diner.png": "/static/media/Card Img for Burger Diner.f53c4e63037c955a1cc6.png",
     "static/media/Bread Is Gold My Recipes.jpg": "/static/media/Bread Is Gold My Recipes.abfe7faef18dd5be3aa3.jpg",
     "static/media/Bread is Gold Home.jpg": "/static/media/Bread is Gold Home.12e6901756488193c640.jpg",
     "static/media/burger-diner-banner.PNG": "/static/media/burger-diner-banner.42096b8e458908b67562.PNG",
@@ -22,12 +20,16 @@
     "static/media/Burger Diner Next Level.png": "/static/media/Burger Diner Next Level.b7d83c804779468e93de.png",
     "static/media/Bread Is Gold Recipe Detail Page.jpg": "/static/media/Bread Is Gold Recipe Detail Page.f6374cde0ceb0a9ef26d.jpg",
     "static/media/Allen's Cabinets Contact.png": "/static/media/Allen's Cabinets Contact.b69e8b144437fa842f03.png",
+    "static/media/burger-diner-card.jpg": "/static/media/burger-diner-card.c5f4f54ebe04072b3b70.jpg",
+    "static/media/genesis-massage-banner.jpg": "/static/media/genesis-massage-banner.e40a263479b65fa93f34.jpg",
     "static/media/githublogo.png": "/static/media/githublogo.ced2cf2d108a9e1af132.png",
+    "static/media/bread-is-gold-card.jpg": "/static/media/bread-is-gold-card.a8ba16a4b351f1711964.jpg",
     "static/media/linkedinlogo.png": "/static/media/linkedinlogo.09e795d068b6d8e798b4.png",
     "static/media/contact-photo.jpeg": "/static/media/contact-photo.5fbcbda48907eb838cf8.jpeg",
     "static/media/home-hero.jpeg": "/static/media/home-hero.9835bc8d5f795bfbf7d4.jpeg",
     "static/media/mail.png": "/static/media/mail.4d24bbbc782dd35c6a9f.png",
     "static/media/aboutmeprofilepic.jpeg": "/static/media/aboutmeprofilepic.e3f15710a3c2db726177.jpeg",
+    "static/media/genesis-massage-card.webp": "/static/media/genesis-massage-card.c8ec504088236f397f3e.webp",
     "index.html": "/index.html",
     "static/media/icon-methodologies.svg": "/static/media/icon-methodologies.f8749ac8a246d0160dec1c9a692ec675.svg",
     "static/media/icon-frameworks.svg": "/static/media/icon-frameworks.8ef584a43c066068b7f90cc27a8fae53.svg",
@@ -35,11 +37,11 @@
     "static/media/icon-databases.svg": "/static/media/icon-databases.4f4043e7120143fce3cab3eef63e3b7e.svg",
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
-    "main.a70e0464.css.map": "/static/css/main.a70e0464.css.map",
-    "main.083464fe.js.map": "/static/js/main.083464fe.js.map"
+    "main.51ad5204.css.map": "/static/css/main.51ad5204.css.map",
+    "main.b057dda1.js.map": "/static/js/main.b057dda1.js.map"
   },
   "entrypoints": [
-    "static/css/main.a70e0464.css",
-    "static/js/main.083464fe.js"
+    "static/css/main.51ad5204.css",
+    "static/js/main.b057dda1.js"
   ]
 }
