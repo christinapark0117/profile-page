@@ -13,14 +13,14 @@ const contactLinks = [
         icon: linkedinIcon,
         iconAlt: "LinkedIn",
         href: "https://www.linkedin.com/in/meet-christina-park/",
-        label: "linkedin.com/in/christinamspark",
+        label: "linkedin.com/in/meet-christina-park",
         external: true,
     },
     {
         icon: githubIcon,
         iconAlt: "GitHub",
         href: "https://github.com/christinapark0117",
-        label: "github.com/christinamspark",
+        label: "github.com/christinapark0117",
         external: true,
     },
 ]
