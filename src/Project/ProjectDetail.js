@@ -13,10 +13,10 @@ const ProjectDetail = ({
     demoLabel = "View Demo",
     bannerImage,
     bannerAlt,
-    images,
-    overview,
-    frontend,
-    backend,
+    images = [],
+    overview = [],
+    frontend = [],
+    backend = [],
     nextLink,
 }) => {
     const [activeSlide, setActiveSlide] = useState(0);
@@ -66,79 +66,87 @@ const ProjectDetail = ({
             </div>
 
             <div className="projectBody">
-                <div className="projectCarousel">
-                    <button
-                        type="button"
-                        className="carouselArrowBtn carouselArrowPrev"
-                        onClick={goPrev}
-                        aria-label="Previous image"
-                    >
-                        ‹
-                    </button>
+                {images.length > 0 && (
+                    <>
+                        <div className="projectCarousel">
+                            <button
+                                type="button"
+                                className="carouselArrowBtn carouselArrowPrev"
+                                onClick={goPrev}
+                                aria-label="Previous image"
+                            >
+                                ‹
+                            </button>
 
-                    <div className="projectCarouselFrame">
-                        <div className="projectCarouselImageWrap">
-                            <img
-                                src={images[activeSlide].src}
-                                alt={images[activeSlide].alt}
-                                className="projectCarouselImage"
-                            />
+                            <div className="projectCarouselFrame">
+                                <div className="projectCarouselImageWrap">
+                                    <img
+                                        src={images[activeSlide].src}
+                                        alt={images[activeSlide].alt}
+                                        className="projectCarouselImage"
+                                    />
+                                </div>
+                            </div>
+
+                            <button
+                                type="button"
+                                className="carouselArrowBtn carouselArrowNext"
+                                onClick={goNext}
+                                aria-label="Next image"
+                            >
+                                ›
+                            </button>
+                        </div>
+
+                        <div className="carouselDots">
+                            {images.map((image, i) => (
+                                <button
+                                    type="button"
+                                    key={image.src}
+                                    className={`carouselDot ${i === activeSlide ? "carouselDotActive" : ""}`}
+                                    onClick={() => setActiveSlide(i)}
+                                    aria-label={`Go to slide ${i + 1}`}
+                                />
+                            ))}
+                        </div>
+                    </>
+                )}
+
+                {overview.length > 0 && (
+                    <div className="projectSection">
+                        <h2 className="projectSectionHeading">Overview</h2>
+                        <div className="projectOverviewGrid">
+                            {overview.map((paragraph) => (
+                                <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+                            ))}
                         </div>
                     </div>
+                )}
 
-                    <button
-                        type="button"
-                        className="carouselArrowBtn carouselArrowNext"
-                        onClick={goNext}
-                        aria-label="Next image"
-                    >
-                        ›
-                    </button>
-                </div>
-
-                <div className="carouselDots">
-                    {images.map((image, i) => (
-                        <button
-                            type="button"
-                            key={image.src}
-                            className={`carouselDot ${i === activeSlide ? "carouselDotActive" : ""}`}
-                            onClick={() => setActiveSlide(i)}
-                            aria-label={`Go to slide ${i + 1}`}
-                        />
-                    ))}
-                </div>
-
-                <div className="projectSection">
-                    <h2 className="projectSectionHeading">Overview</h2>
-                    <div className="projectOverviewGrid">
-                        {overview.map((paragraph) => (
-                            <p key={paragraph.slice(0, 24)}>{paragraph}</p>
-                        ))}
-                    </div>
-                </div>
-
-                <div className="projectSection">
-                    <h2 className="projectSectionHeading">Technical Approach</h2>
-                    <hr className="projectDivider" />
-                    <div className="projectTechGrid">
-                        <div>
-                            <h3 className="projectTechHeading">Frontend</h3>
-                            <ul className="projectTechList">
-                                {frontend.map((item) => (
-                                    <li key={item}>{item}</li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="projectTechHeading">Backend</h3>
-                            <ul className="projectTechList">
-                                {backend.map((item) => (
-                                    <li key={item}>{item}</li>
-                                ))}
-                            </ul>
+                {(frontend.length > 0 || backend.length > 0) && (
+                    <div className="projectSection">
+                        <h2 className="projectSectionHeading">Technical Approach</h2>
+                        <hr className="projectDivider" />
+                        <div className="projectTechGrid">
+                            <div>
+                                <h3 className="projectTechHeading">Frontend</h3>
+                                <ul className="projectTechList">
+                                    {frontend.map((item) => (
+                                        <li key={item}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div>
+                                <h3 className="projectTechHeading">Backend</h3>
+                                <ul className="projectTechList">
+                                    {backend.map((item) => (
+                                        <li key={item}>{item}</li>
+                                    ))}
+                                </ul>
+                            </div>
                         </div>
                     </div>
-                </div>
+                )}
 
                 <div className="projectFooterNav">
                     <Link className="projectFooterLink" to="/project">← All Projects</Link>

@@ -10,6 +10,7 @@ import Skills from "./Skills/Skills";
 import BreadIsGold from "./Project/BreadIsGold";
 import BurgerDiner from "./Project/BurgerDiner";
 import AllensCabinets from "./Project/AllensCabinets";
+import GenesisMassage from "./Project/GenesisMassage";
 import Contact from "./Contact/Contact";
 
 
@@ -29,6 +30,7 @@ function App() {
         <Route exact path='/project/breadisgold' component={BreadIsGold} />
         <Route exact path='/project/burgerdiner' component={BurgerDiner} />
         <Route exact path='/project/allenscabinets' component={AllensCabinets} />
+        <Route exact path='/project/genesismassage' component={GenesisMassage} />
       </Switch>
     </div>
   );
