@@ -1,8 +1,6 @@
 import React from 'react'
 import '../PageStyle/Contact.css'
-import mailIcon from '../Media/mail.png'
-import linkedinIcon from '../Media/linkedinlogo.png'
-import githubIcon from '../Media/githublogo.png'
+import contactLinks from './contactLinks'
 
 const Contact = () => {
     return (
@@ -17,18 +15,17 @@ const Contact = () => {
                     </p>
 
                     <div className="contactList">
-                        <a className="contactRow" href="mailto:christinapark0117@gmail.com">
-                            <img className="contactIcon" alt="Email" src={mailIcon}/>
-                            christinapark0117@gmail.com
-                        </a>
-                        <a className="contactRow" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/meet-christina-park/">
-                            <img className="contactIcon" alt="LinkedIn" src={linkedinIcon}/>
-                            linkedin.com/in/christinamspark
-                        </a>
-                        <a className="contactRow" target="_blank" rel="noreferrer" href="https://github.com/christinapark0117">
-                            <img className="contactIcon" alt="GitHub" src={githubIcon}/>
-                            github.com/christinamspark
-                        </a>
+                        {contactLinks.map((link) => (
+                            <a
+                                key={link.href}
+                                className="contactRow"
+                                href={link.href}
+                                {...(link.external ? { target: "_blank", rel: "noreferrer" } : {})}
+                            >
+                                <img className="contactIcon" alt={link.iconAlt} src={link.icon}/>
+                                {link.label}
+                            </a>
+                        ))}
                     </div>
 
                     <div className="contactQuoteBox script-quote">

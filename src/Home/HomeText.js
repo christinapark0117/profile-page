@@ -29,10 +29,6 @@ const HomeText = () => {
                     <span className="homeQuoteLine">"Different experiences lead to a different perspective.</span>
                     <span className="homeQuoteLine">And that perspective is what makes me stand out."</span>
                 </div>
-
-                <div className="homeScroll">
-                    <span className="homeScrollArrow">↓</span> Scroll
-                </div>
             </div>
         </div>
     )

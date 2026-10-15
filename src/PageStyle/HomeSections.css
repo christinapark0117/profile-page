@@ -1,0 +1,396 @@
+/* Shared layout for the sections below the homepage hero */
+
+.homeSection {
+    border-top: 1px solid var(--color-border);
+}
+
+.homeSectionInner {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 8vh var(--page-pad);
+}
+
+.homeSectionHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.75rem 2rem;
+}
+
+.homeSectionTitle {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: clamp(1.8rem, 3vw, 2.4rem);
+    color: var(--color-accent);
+    margin: 0;
+}
+
+.homeSectionLink {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--color-accent);
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.homeSectionLink:hover {
+    color: var(--color-accent);
+    opacity: 0.75;
+}
+
+.homeSectionIntro {
+    color: var(--color-text-muted);
+    line-height: 1.6;
+    max-width: 680px;
+    margin: 0.75rem 0 0 0;
+}
+
+/* Professional Journey */
+
+.journeyTimeline {
+    position: relative;
+    margin-top: 2.5rem;
+    padding-left: 1.5rem;
+}
+
+.journeyTimeline::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    transform: translateX(-50%);
+    top: 0.5rem;
+    bottom: 0.5rem;
+    width: 1px;
+    background: var(--color-border);
+}
+
+.journeyItem {
+    position: relative;
+    padding: 0 0 2rem 2rem;
+}
+
+.journeyItem + .journeyItem {
+    border-top: 1px solid var(--color-border);
+    padding-top: 2rem;
+}
+
+.journeyDot {
+    position: absolute;
+    left: -1.5rem;
+    transform: translateX(-50%);
+    top: 0.5rem;
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: var(--color-accent);
+}
+
+.journeyItem + .journeyItem .journeyDot {
+    top: 2.5rem;
+}
+
+.journeyHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 0.25rem 1.5rem;
+}
+
+.journeyRole {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: var(--color-accent);
+    margin: 0;
+}
+
+.journeyOrg {
+    font-size: 0.95rem;
+    color: var(--color-text);
+    margin-top: 0.2rem;
+}
+
+.journeyYears {
+    font-size: 0.9rem;
+    color: var(--color-text-muted);
+    white-space: nowrap;
+}
+
+.journeyBullets {
+    margin: 0.9rem 0 0 0;
+    padding-left: 1.1rem;
+    color: var(--color-text-muted);
+    font-size: 0.93rem;
+    line-height: 1.7;
+}
+
+/* Featured Projects */
+
+.featuredViewport {
+    overflow: hidden;
+    margin: 2rem -0.6rem 0;
+}
+
+.featuredTrack {
+    display: flex;
+    transition: transform 0.45s ease;
+}
+
+.featuredSlide {
+    flex-shrink: 0;
+    padding: 0 0.6rem;
+    display: flex;
+}
+
+.featuredCard {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: var(--color-card);
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.featuredImageWrap {
+    aspect-ratio: 2 / 1;
+    overflow: hidden;
+}
+
+.featuredImage {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featuredBody {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.1rem 1.1rem 1rem;
+}
+
+.featuredTitle {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: var(--color-accent);
+    margin: 0 0 0.5rem 0;
+}
+
+.featuredText {
+    flex: 1;
+    color: var(--color-text-muted);
+    font-size: 0.88rem;
+    line-height: 1.55;
+    margin: 0 0 1rem 0;
+}
+
+.featuredFooter {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    gap: 0.75rem;
+}
+
+.featuredTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.featuredTag {
+    font-size: 0.75rem;
+    padding: 0.2rem 0.55rem;
+    border: 1px solid var(--color-border);
+    border-radius: 3px;
+    color: var(--color-text);
+}
+
+.featuredLink {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border: 1.5px solid var(--color-accent);
+    border-radius: 50%;
+    color: var(--color-accent);
+    font-size: 0.9rem;
+    text-decoration: none;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.featuredLink:hover {
+    background: var(--color-accent);
+    color: #fff;
+}
+
+.featuredControls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+    margin-top: 1.75rem;
+}
+
+.featuredArrow {
+    border: none;
+    background: none;
+    color: var(--color-accent);
+    font-size: 1.1rem;
+    padding: 0 0.5rem;
+    cursor: pointer;
+}
+
+.featuredDot {
+    width: 9px;
+    height: 9px;
+    padding: 0;
+    border: none;
+    border-radius: 50%;
+    background: var(--color-border);
+    cursor: pointer;
+}
+
+.featuredDotActive {
+    background: var(--color-accent);
+}
+
+/* Let's Connect */
+
+.homeConnect {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background: var(--color-bg-alt);
+    min-height: 340px;
+}
+
+.homeConnectImageWrap {
+    position: relative;
+    overflow: hidden;
+}
+
+.homeConnectImage {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 72%;
+}
+
+/* Fades the photo into the copy side */
+.homeConnectImageWrap::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(237, 234, 226, 0) 55%, var(--color-bg-alt) 100%);
+}
+
+.homeConnectCopy {
+    padding: 3.5rem var(--page-pad) 3.5rem 2.5rem;
+    align-self: center;
+    max-width: 560px;
+}
+
+.homeConnectHeading {
+    font-family: var(--font-serif);
+    font-size: clamp(1.3rem, 2vw, 1.6rem);
+    line-height: 1.35;
+    color: var(--color-accent);
+    margin: 0 0 1.75rem 0;
+}
+
+.homeConnectList {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+}
+
+.homeConnectRow {
+    display: flex;
+    align-items: center;
+    gap: 0.9rem;
+    font-size: 0.95rem;
+    color: var(--color-text);
+}
+
+.homeConnectIcon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.homeConnectLabel {
+    text-decoration: underline;
+    overflow-wrap: anywhere;
+}
+
+/* Footer */
+
+.homeFooter {
+    border-top: 1px solid var(--color-border);
+}
+
+.homeFooterInner {
+    max-width: var(--page-max);
+    margin: 0 auto;
+    padding: 1.75rem var(--page-pad);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+}
+
+.homeFooterBrand {
+    font-family: var(--font-serif);
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    font-size: 0.9rem;
+    color: var(--color-accent);
+    text-decoration: none;
+}
+
+.homeFooterBrand:hover {
+    color: var(--color-accent);
+}
+
+.homeFooterLinks {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.6rem;
+}
+
+.homeFooterLink {
+    font-size: 0.85rem;
+    color: var(--color-text-muted);
+    text-decoration: none;
+}
+
+.homeFooterLink:hover {
+    color: var(--color-accent);
+}
+
+.homeFooterCopy {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+@media only screen and (max-width: 700px) {
+    .homeConnect { grid-template-columns: 1fr; }
+    .homeConnectImageWrap { height: 240px; }
+    .homeConnectImageWrap::after {
+        background: linear-gradient(180deg, rgba(237, 234, 226, 0) 60%, var(--color-bg-alt) 100%);
+    }
+    .homeConnectCopy { padding: 2rem var(--page-pad) 2.5rem; }
+    .homeFooterInner { flex-direction: column; align-items: flex-start; }
+}
