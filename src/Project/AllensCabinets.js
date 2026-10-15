@@ -18,26 +18,30 @@ const AllensCabinets = () => (
         label="Client Work"
         number="01"
         title="Allen's Cabinets Kitchen & Bath"
-        description="A full-stack business website designed to showcase cabinetry services, renovation work, and customer inquiries."
+        description="A full-stack business website designed to turn product browsing into appointments and quote requests."
         role="Full-Stack Developer"
-        stack="React, Ruby on Rails, PostgreSQL"
-        focus="Business Website, Admin Features, Inquiry Flow"
+        stack="React 19, Supabase, PostgreSQL, Vercel"
+        focus="Booking Flow, Quote Requests, Project Gappery, Admin Integration"
         demoLink="https://www.allenscabinets.com/"
         demoLabel="Visit Allen's Cabinets"
         bannerImage={AllensCabinetBanner}
         bannerAlt="Allen's Cabinets Kitchen & Bath banner"
         images={images}
         overview={[
-            "Allen's Cabinets Kitchen & Bath is a full-stack website for a residential cabinetry and renovation business. The site showcases cabinetry services, project imagery, and provides an easy way for customers to get in touch through a contact and inquiry system.",
-            "This project was built to give the business a clean, professional online presence, highlight their work, and make it simple for potential clients to learn about services and request an estimate or more information.",
+            "Allen's Cabinets is a full-stack website built for a kitchen and bath showroom in Alexandria, Virginia. The site replaces an older WordPress experience with a streamlined platform that helps visitors explore cabinetry, browse completed projects, and move directly toward scheduling a showroom visit or requesting a quote.",
+            "The platform connects the public website with booking, inquiry, gallery, and administrative workflows through a shared PostgreSQL database. Appointments and quote requests flow directly into the business's internal tools, while automated email notifications keep both customers and staff informed without requiring users to create an account.",
         ]}
-        frontend={["JavaScript & React", "Custom CSS", "Imported data by fetching to the backend", "Footer Included"]}
+        frontend={["React 19", "React Router 7", "Vite", "Server-side prerendering/SSR", "Responsive UI", "Product specific routes", "Filterable project gallery", "Custom booking flow", "Quote request with image uploads"]}
         backend={[
-            "Ruby on Rails",
+            "Supabase",
             "PostgreSQL",
-            "Ruby on Rails Mailer",
-            "Serialized RESTful API",
-            "Full validations and authentication using JWT token and Bcrypt ruby gem for Admin Login",
+            "Row Level Security",
+            "Vercel Functions",
+            "Resend email delivery",
+            "Appointment & quote APIs",
+            "Shared admin database",
+            "Build-time gallery snapshots",
+            "Token-based booking management"
         ]}
         nextLink="/project/genesismassage"
     />

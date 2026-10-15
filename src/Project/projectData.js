@@ -12,8 +12,8 @@ export const projectSections = [
                 title: "Allen's Cabinets",
                 image: AllensImg,
                 alt: "Allen's Cabinets project screenshot",
-                description: "A polished business website showcasing cabinetry services, project galleries, and inquiries.",
-                tags: ["React", "Rails", "PostgreSQL"],
+                description: "A full-stack website for an Alexandria kitchen & bath showroom, built to turn product browsing into showroom visits and quote requests.",
+                tags: ["React", "Supabase", "PostgreSQL"],
                 link: "/project/allenscabinets",
             },
             {
