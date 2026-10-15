@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0cc3e46a.css",
-    "main.js": "/static/js/main.471148d1.js",
+    "main.js": "/static/js/main.9f0ae1fe.js",
     "static/media/Allen's Cabinets Home.png": "/static/media/Allen's Cabinets Home.3578e789ef3666d4a295.png",
     "static/media/bread-gold-banner.png": "/static/media/bread-gold-banner.c0350506831a3512dba1.png",
     "static/media/Bread Is Gold My Recipes.jpg": "/static/media/Bread Is Gold My Recipes.abfe7faef18dd5be3aa3.jpg",
@@ -47,10 +47,10 @@
     "static/media/icon-tools.svg": "/static/media/icon-tools.e8b5694c5e6362250773e1b29f1c298c.svg",
     "static/media/icon-other.svg": "/static/media/icon-other.7ec84d39a1adf3ea798c2ad564a046ed.svg",
     "main.0cc3e46a.css.map": "/static/css/main.0cc3e46a.css.map",
-    "main.471148d1.js.map": "/static/js/main.471148d1.js.map"
+    "main.9f0ae1fe.js.map": "/static/js/main.9f0ae1fe.js.map"
   },
   "entrypoints": [
     "static/css/main.0cc3e46a.css",
-    "static/js/main.471148d1.js"
+    "static/js/main.9f0ae1fe.js"
   ]
 }
