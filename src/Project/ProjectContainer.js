@@ -12,20 +12,20 @@ const projectSections = [
         subtitle: "Websites designed, built, and deployed for local businesses.",
         projects: [
             {
-                title: "Genesis Massage",
-                image: GenesisMassageImg,
-                alt: "Massage therapist rolling a towel on a massage table",
-                description: "A calm, conversion-focused website for a Vienna, Virginia massage practice.",
-                tags: ["React", "Responsive", "Scheduling"],
-                link: "/project/genesismassage",
-            },
-            {
                 title: "Allen's Cabinets",
                 image: AllensImg,
                 alt: "Allen's Cabinets project screenshot",
                 description: "A polished business website showcasing cabinetry services, project galleries, and inquiries.",
                 tags: ["React", "Rails", "PostgreSQL"],
                 link: "/project/allenscabinets",
+            },
+            {
+                title: "Genesis Massage",
+                image: GenesisMassageImg,
+                alt: "Massage therapist rolling a towel on a massage table",
+                description: "A calm, conversion-focused website for a Vienna, Virginia massage practice.",
+                tags: ["React", "Responsive", "Scheduling"],
+                link: "/project/genesismassage",
             },
         ],
     },

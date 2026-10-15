@@ -34,7 +34,7 @@ const BurgerDiner = () => (
         ]}
         frontend={["JavaScript (DOM Manipulation)", "Semantic UI + Custom CSS", "Imported data by fetching to the backend"]}
         backend={["Ruby on Rails", "SQLite3", "Serialized RESTful API", "MVC Pattern"]}
-        nextLink="/project/genesismassage"
+        nextLink="/project/allenscabinets"
     />
 );
 

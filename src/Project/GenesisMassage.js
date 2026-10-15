@@ -25,7 +25,8 @@ const images = [
 
 const GenesisMassage = () => (
     <ProjectDetail
-        number="04"
+        label="Client Work"
+        number="02"
         title="Genesis Massage"
         description="A calm, conversion-focused website for a Vienna, Virginia massage practice."
         role="Design & Full-Stack Development"
@@ -61,7 +62,7 @@ const GenesisMassage = () => (
             "GitHub-based deployment workflow",
             "ESLint and image optimization with Sharp",
         ]}
-        nextLink="/project/allenscabinets"
+        nextLink="/project/breadisgold"
     />
 );
 

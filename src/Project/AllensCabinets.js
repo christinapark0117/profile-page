@@ -15,7 +15,8 @@ const images = [
 
 const AllensCabinets = () => (
     <ProjectDetail
-        number="03"
+        label="Client Work"
+        number="01"
         title="Allen's Cabinets Kitchen & Bath"
         description="A full-stack business website designed to showcase cabinetry services, renovation work, and customer inquiries."
         role="Full-Stack Developer"
@@ -38,7 +39,7 @@ const AllensCabinets = () => (
             "Serialized RESTful API",
             "Full validations and authentication using JWT token and Bcrypt ruby gem for Admin Login",
         ]}
-        nextLink="/project/breadisgold"
+        nextLink="/project/genesismassage"
     />
 );
 

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../PageStyle/ProjectDetail.css";
 
 const ProjectDetail = ({
+    label = "Project",
     number,
     title,
     description,
@@ -29,7 +30,7 @@ const ProjectDetail = ({
         <div className="projectDetail">
             <div className="projectHero">
                 <div className="projectHeroText">
-                    <div className="eyebrow">Project / {number}</div>
+                    <div className="eyebrow">{label} / {number}</div>
                     <h1 className="projectTitle">{title}</h1>
                     <p className="projectSubtitle">{description}</p>
 
