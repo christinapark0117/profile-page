@@ -4,8 +4,8 @@
 }
 
 .navInner {
-    max-width: var(--page-max);
-    margin: 0 auto;
+    /* Full width with equal side padding, so the name lines up with the homepage hero text (6vw from the edge)
+       and the links end the same distance from the right edge */
     padding: 1.4rem var(--page-pad);
     display: flex;
     align-items: center;
