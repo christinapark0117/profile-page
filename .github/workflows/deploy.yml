@@ -35,3 +35,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           cname: christinamspark.com
+          # Keep earlier builds' files so a browser holding a cached index.html
+          # can still load the JS/CSS it points to instead of showing a blank page.
+          keep_files: true
